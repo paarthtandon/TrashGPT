@@ -11,3 +11,4 @@
 ## Documents
 
 - [Proposal](https://www.overleaf.com/project/63ebb492e3b98236eca9357b) (March 8th)
+- [Playlist](https://youtube.com/playlist?list=PLUHmmIt9sU6i4JlDABqLeWybD_ZrJf9LB)
