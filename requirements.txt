@@ -1,2 +1,2 @@
 torch
-youtube-dl
+yt-dlp
