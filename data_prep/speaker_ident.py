@@ -12,8 +12,8 @@ print('pipeline loaded')
 
 # apply the pipeline to an audio file
 diarization = pipeline(
-    data_dir + 'Animals We Could Beat in a Fight ｜ Trash Taste #91 [ZWS2nFo7eEo].wav',
-    min_speakers = 3
+    data_dir + 'Animals We Could Beat in a Fight ｜ Trash Taste #91 [ZWS2nFo7eEo].wav' # ,
+    # min_speakers = 3
 )
 
 print('diarization complete')
