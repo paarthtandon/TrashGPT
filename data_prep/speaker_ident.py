@@ -16,8 +16,10 @@ pipeline = Pipeline.from_pretrained('pyannote/speaker-diarization@2.1', use_auth
 print('pipeline loaded')
 start_time = time.time()
 
-for filename in os.listdir(data_dir):
-    if filename.endswith('.wav'):
+data_files = os.listdir(data_dir)
+for filename in data_files:
+    rttm_file = os.path.splitext(filename)[0] + '.rttm'
+    if filename.endswith('.wav') and rttm_file not in data_files:
 
         input_file_path = os.path.join(data_dir, filename)
         output_file_path = os.path.join(output_dir, os.path.splitext(filename)[0] + '.rttm')
