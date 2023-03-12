@@ -22,7 +22,7 @@ diarization = pipeline(
 print('diarization complete')
 
 # dump the diarization output to disk using RTTM format
-with open("audio.rttm", "w") as rttm:
+with open(f'audio.rttm', "w") as rttm:
     diarization.write_rttm(rttm)
 
 print("--- %s seconds ---" % (time.time() - start_time))
