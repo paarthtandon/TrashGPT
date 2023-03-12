@@ -1,2 +1,4 @@
 torch
 yt-dlp
+pyannote.audio
+python-dotenv
