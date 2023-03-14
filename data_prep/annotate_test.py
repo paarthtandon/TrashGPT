@@ -40,10 +40,15 @@ for event in auto_trans:
         continue
     auto_trans_prep.append([event['tStartMs'], event['dDurationMs'], seg_text])
 
-event_header = ['start_ms', 'end_ms', 'text']
+event_header = ['start_ms', 'duration_ms', 'text']
 human_events = pd.DataFrame(human_trans_prep, columns=event_header)
 auto_events = pd.DataFrame(auto_trans_prep, columns=event_header)
 
-print(rttm.head(10))
-print(human_events.head(10))
-print(auto_events.head(10))
+print(rttm.head(15))
+print(human_events.head(15))
+print(auto_events.head(15))
+
+event = human_events.iloc[0]
+speaker = rttm['Turn Onset']
+
+print()
