@@ -3,3 +3,4 @@ yt-dlp
 pyannote.audio
 python-dotenv
 pandas
+tqdm
