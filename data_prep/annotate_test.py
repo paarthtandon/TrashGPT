@@ -82,4 +82,49 @@ with open('test_annot_human.txt', 'w') as human:
 with open('test_annot_auto.txt', 'w') as auto:
     auto.write(auto_out)
 
+human_out_v2 = ''
+auto_out_v2 = ''
+
+for i in range(human_events.shape[0]):
+    event = human_events.iloc[i]
+    rttm['start_distance'] = np.abs(rttm['start_ms'] - event['start_ms'])
+    rttm['end_distance'] = np.abs(rttm['end_ms'] - event['end_ms'])
+
+    rttm.sort_values('start_distance', inplace=True)
+    first_speaker = rttm.iloc[0]
+    first_dist = rttm.iloc[0]['start_distance']
+
+    rttm.sort_values('end_distance', inplace=True)
+    last_speaker = rttm.iloc[0]
+    last_dist = rttm.iloc[0]['end_distance']
+
+    take_first = first_dist < last_dist
+    speaker = first_speaker['Speaker Name'] if first_dist < last_dist else last_speaker['Speaker Name']
+
+    human_out_v2 += f'<{speaker}> {event["text"]} </{speaker}>\n'
+
+for i in range(auto_events.shape[0]):
+    event = auto_events.iloc[i]
+    rttm['start_distance'] = np.abs(rttm['start_ms'] - event['start_ms'])
+    rttm['end_distance'] = np.abs(rttm['end_ms'] - event['end_ms'])
+
+    rttm.sort_values('start_distance', inplace=True)
+    first_speaker = rttm.iloc[0]
+    first_dist = rttm.iloc[0]['start_distance']
+
+    rttm.sort_values('end_distance', inplace=True)
+    last_speaker = rttm.iloc[0]
+    last_dist = rttm.iloc[0]['end_distance']
+
+    take_first = first_dist < last_dist
+    speaker = first_speaker['Speaker Name'] if first_dist < last_dist else last_speaker['Speaker Name']
+
+    auto_out_v2 += f'<{speaker}> {event["text"]} </{speaker}>\n'
+
+with open('test_annot_human_v2.txt', 'w') as human:
+    human.write(human_out_v2)
+
+with open('test_annot_auto_v2.txt', 'w') as auto:
+    auto.write(auto_out_v2)
+
 print("--- %s seconds ---" % (time.time() - start_time))
