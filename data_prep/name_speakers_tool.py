@@ -64,6 +64,18 @@ def name_transcripts(ep_name, speaker_num, speaker_name):
         out_file.close()
 
 
+def check_transcripts(ep_name):
+    transcripts = os.listdir(write_dir)
+    transcripts = [t for t in transcripts if ep_name in t]
+    for t in transcripts:
+        out_file = open(write_dir + t, 'r')
+        trans = out_file.read()
+        out_file.close()
+        if '<SPEAKER_' in trans:
+            return True
+    return False
+
+
 def analyzeInput(pdFile, audiofile, speaker, ep_name):
 
     setofcommands = ['audio', 'label', 'next', 'quit', 'exit']
@@ -182,11 +194,11 @@ print('Welcome to the Speech Diarization Naming Tool')
 pathtodata = pathlib.Path(diar_dir)
 filesinlib = os.listdir(pathtodata)
 for filename in filesinlib:
+    ep_name = get_episode_name(filename)
     # file = fileNotEditted(filename)
     file = fileNotEditted(filename)
-    if file is not None:
+    if file is not None and check_transcripts(ep_name):
         print(f'Working on: {filename}')
-        ep_name = get_episode_name(filename)
         audio = AudioSegment.from_file(audio_dir + filename[:-4] + 'm4a')
         speakers = file['speaker'].unique()
         speakers.sort()
@@ -195,3 +207,5 @@ for filename in filesinlib:
             printInstruction()
             analyzeInput(file, audio, speaker, ep_name)
             file = reload(filename)
+    else:
+        print(f'Skipping: {filename}')
