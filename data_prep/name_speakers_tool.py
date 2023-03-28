@@ -54,12 +54,12 @@ def name_transcripts(ep_name, speaker_num, speaker_name):
     transcripts = os.listdir(write_dir)
     transcripts = [t for t in transcripts if ep_name in t]
     for t in transcripts:
-        out_file = open(write_dir + t, 'r')
+        out_file = open(write_dir + t, 'r', encoding='utf-8')
         trans = out_file.read()
         trans = trans.replace(speaker_num, speaker_name)
         out_file.close()
 
-        out_file = open(write_dir + t, 'w')
+        out_file = open(write_dir + t, 'w', encoding='utf-8')
         out_file.write(trans)
         out_file.close()
 
@@ -68,7 +68,7 @@ def check_transcripts(ep_name):
     transcripts = os.listdir(write_dir)
     transcripts = [t for t in transcripts if ep_name in t]
     for t in transcripts:
-        out_file = open(write_dir + t, 'r')
+        out_file = open(write_dir + t, 'r', encoding='utf-8')
         trans = out_file.read()
         out_file.close()
         if '<SPEAKER_' in trans:
@@ -156,8 +156,8 @@ def analyzeInput(pdFile, audiofile, speaker, ep_name):
         # os.system('snippet.wav')
 
         duration = pdFile.sort_values('duration', ascending=False)
-        if duration.shape[0] >= 3:
-            duration = duration.iloc[:3]
+        if duration.shape[0] >= 5:
+            duration = duration.iloc[:5]
         else:
             duration = duration
         
@@ -193,12 +193,12 @@ print('Welcome to the Speech Diarization Naming Tool')
 # change the path below to the folder where you have the speech-diarization folder
 pathtodata = pathlib.Path(diar_dir)
 filesinlib = os.listdir(pathtodata)
-for filename in filesinlib:
+for i, filename in enumerate(filesinlib):
     ep_name = get_episode_name(filename)
     # file = fileNotEditted(filename)
     file = fileNotEditted(filename)
     if file is not None and check_transcripts(ep_name):
-        print(f'Working on: {filename}')
+        print(f'Working on: {filename} {i}/{len(filesinlib)}')
         audio = AudioSegment.from_file(audio_dir + filename[:-4] + 'm4a')
         speakers = file['speaker'].unique()
         speakers.sort()
