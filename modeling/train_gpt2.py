@@ -11,8 +11,8 @@ model_dir = 'models/'
 
 #Get the tokenizer and model
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-# model = GPT2LMHeadModel.from_pretrained('gpt2')
-model = torch.load('models/gpt2_5ep.pt')
+model = GPT2LMHeadModel.from_pretrained('gpt2')
+#model = torch.load('models/gpt2_5ep.pt')
 
 #dataset
 dataset_f = open(dataset_fn, 'r', encoding='utf-8')
@@ -81,5 +81,5 @@ def train(
             )
     return model
 
-model = train(dataset, model, tokenizer)
+model = train(dataset, model, tokenizer, epochs=20)
 torch.save(model, model_dir + 'gpt2_10ep.pt')
