@@ -128,7 +128,7 @@ time, I swear to God. </joey>
 <garnt> - [Ashley] Appreciate it
 because he can read the signs. </garnt>
 <garnt> - Yeah, exactly. </garnt>
-<SPEAKER_02> - I'm doing it for the driver, all right. </SPEAKER_02>
+<joey> - I'm doing it for the driver, all right. </joey>
 <connor> - There's more responsibility for me. </connor>
 <garnt> You can chill in the back of the car. </garnt>
 <connor> - The front seat's only good if the driver </connor>
@@ -448,14 +448,14 @@ to be the shortest, </garnt>
 <garnt> - I feel like the Mr.
 Incredible meme right now. </garnt>
 <joey> You guys are like happy. </joey>
-<SPEAKER_02> I'm like the (beep)in' pain. </SPEAKER_02>
-<SPEAKER_02> I'm not short, I'm tall. </SPEAKER_02>
+<joey> I'm like the (beep)in' pain. </joey>
+<joey> I'm not short, I'm tall. </joey>
 <connor> I'm 5'10". </connor>
 <garnt> - But the thing is, but the
 thing is you're not short. </garnt>
 <connor> - I don't really...
 - Especially in this country. </connor>
-<SPEAKER_02> - Yeah, I don't feel, I don't feel short. </SPEAKER_02>
+<joey> - Yeah, I don't feel, I don't feel short. </joey>
 <garnt> - No.
 - Yeah. </garnt>
 <garnt> - But like you meet people, you're like, </garnt>
@@ -498,7 +498,7 @@ unless they're like X. </garnt>
 <joey> - Yeah.
 - Yeah. </joey>
 <joey> - I'm like, why, why though? </joey>
-<SPEAKER_02> What are the privileges of being taller </SPEAKER_02>
+<joey> What are the privileges of being taller </joey>
 <garnt> than a certain?
 - I get it. </garnt>
 <connor> - You have a preference,
@@ -549,17 +549,17 @@ like, thank you, thank you. </joey>
 <garnt> - [Joey] Yeah, I literally,
 I was like just scraped by. </garnt>
 <garnt> - There is a God. </garnt>
-<SPEAKER_02> - I grew two millimeters last year </SPEAKER_02>
-<SPEAKER_02> and I just scraped by, what? </SPEAKER_02>
-<SPEAKER_02> - [Ashley] 183 </SPEAKER_02>
-<SPEAKER_02> - I'm not even six foot. </SPEAKER_02>
+<joey> - I grew two millimeters last year </joey>
+<joey> and I just scraped by, what? </joey>
+<joey> - [Ashley] 183 </joey>
+<joey> - I'm not even six foot. </joey>
 <joey> - I always thought I always
 thought six foot was 180. </joey>
 <connor> - Joey, you're kinda looking
 mighty short right now, Joey. </connor>
 <connor> You're kinda looking
 mighty short right now. </connor>
-<SPEAKER_02> - [Ashley] It's technically 182.8, yeah. </SPEAKER_02>
+<joey> - [Ashley] It's technically 182.8, yeah. </joey>
 <garnt> - Okay, hold on. </garnt>
 <garnt> I know what I am in
 centimeters, let me ask. </garnt>
@@ -584,9 +584,9 @@ centimeters in feet and inches? </garnt>
 <joey> - Put it put up against the mic. </joey>
 <joey> - [Siri] 181 centimeters is 5.94 feet. </joey>
 <garnt> - 5.94, which that's what, 5'11", right? </garnt>
-<SPEAKER_02> It's it's not 5'9". </SPEAKER_02>
-<SPEAKER_02> It's 5.94 feet, which is five, </SPEAKER_02>
-<SPEAKER_02> which means it's 5' 11? </SPEAKER_02>
+<joey> It's it's not 5'9". </joey>
+<joey> It's 5.94 feet, which is five, </joey>
+<joey> which means it's 5' 11? </joey>
 <joey> How many feet, how many inches in a foot? </joey>
 <joey> - But it's not... </joey>
 <garnt> - But it's not six though.
@@ -751,7 +751,7 @@ yeah, like the black and white. </garnt>
 a place that was open. </joey>
 <joey> But yeah, I don't know why
 the toilet fit into the theme. </joey>
-<SPEAKER_02> There was nothing to indicate </SPEAKER_02>
+<joey> There was nothing to indicate </joey>
 <joey> it was like a Hobbit theme or anything. </joey>
 <joey> It was really strange, but you find this </joey>
 <garnt> in Japan occasionally, just random places </garnt>
@@ -908,8 +908,8 @@ the size of a hallway? </connor>
 going into the building. </connor>
 <connor> Do you wanna tell a story? </connor>
 <garnt> - Yeah, so we basically, it was after </garnt>
-<SPEAKER_02> the really short toilet bar, right. </SPEAKER_02>
-<SPEAKER_02> And we were like, oh, we're feeling good. </SPEAKER_02>
+<joey> the really short toilet bar, right. </joey>
+<joey> And we were like, oh, we're feeling good. </joey>
 <garnt> So, you know, it's been a
 while since the three of us </garnt>
 <garnt> had like gone out to go
@@ -1066,9 +1066,9 @@ were like they'll come back, </joey>
 point and left us in the bar, </joey>
 <joey> just like alone for like
 five minutes and we were like </joey>
-<SPEAKER_02> only in Japan would they leave the bar </SPEAKER_02>
-<SPEAKER_02> with the customers still
-in there just to make sure </SPEAKER_02>
+<joey> only in Japan would they leave the bar </joey>
+<joey> with the customers still
+in there just to make sure </joey>
 <joey> this like rich customer
 can go and do whatever. </joey>
 <joey> - Yeah.
@@ -1269,11 +1269,11 @@ expenses to start out with </connor>
 <connor> - Right, you need to
 like, I mean the bars, </connor>
 <garnt> the bars we went to, </garnt>
-<SPEAKER_02> some of them were in like
-an apartment building. </SPEAKER_02>
-<SPEAKER_02> They were basically just
-someone's apartment, right? </SPEAKER_02>
-<SPEAKER_02> But the way they renovated this bar, </SPEAKER_02>
+<joey> some of them were in like
+an apartment building. </joey>
+<joey> They were basically just
+someone's apartment, right? </joey>
+<joey> But the way they renovated this bar, </joey>
 <joey> it looks (beep)ing great, you know. </joey>
 <joey> There were so many small
 touches in every bar we go to. </joey>
@@ -1350,7 +1350,7 @@ atmosphere doesn't really </connor>
 like drink, drink, drink. </garnt>
 <garnt> Just take your time.
 - Yeah. </garnt>
-<SPEAKER_02> - Just take your time. </SPEAKER_02>
+<joey> - Just take your time. </joey>
 <joey> - Let's just relax, let's just talk. </joey>
 <joey> - This is like really...
 - Let's just talk. </joey>
@@ -1386,11 +1386,11 @@ oh, what the (beep)... </garnt>
 <connor> (laughing noise drowns out other sounds) </connor>
 <joey> - They might, they might,
 but they probably wouldn't. </joey>
-<SPEAKER_02> They're really nice. </SPEAKER_02>
-<SPEAKER_02> I've never been to one of those bars </SPEAKER_02>
-<SPEAKER_02> where the bartender's been like rude </SPEAKER_02>
-<SPEAKER_02> or anything.
-- No, no. </SPEAKER_02>
+<joey> They're really nice. </joey>
+<joey> I've never been to one of those bars </joey>
+<joey> where the bartender's been like rude </joey>
+<joey> or anything.
+- No, no. </joey>
 <connor> - They're always super nice
 and like always interested. </connor>
 <joey> - They wouldn't be in
@@ -1419,9 +1419,9 @@ ordering a bunch of foods </joey>
 'Don't you think you've ordered </joey>
 <joey> 'enough food," to like me and Chris, </joey>
 <joey> and we're like never, never enough food. </joey>
-<SPEAKER_02> - [Joey] Shut up. </SPEAKER_02>
-<SPEAKER_02> - We were like, what the
-(beep) is wrong with you? </SPEAKER_02>
+<joey> - [Joey] Shut up. </joey>
+<joey> - We were like, what the
+(beep) is wrong with you? </joey>
 <joey> Why would you say that
 to someone, (beep) off. </joey>
 <joey> I think she was annoyed 'cause
@@ -1632,8 +1632,8 @@ I guess in that sense </garnt>
 <joey> then a pub is more so
 similar to Izakaya in Japan </joey>
 <connor> in that instance, whereas like a bar </connor>
-<SPEAKER_02> is just like live music.
-- People drinking. </SPEAKER_02>
+<joey> is just like live music.
+- People drinking. </joey>
 <garnt> (talking over each other) </garnt>
 <garnt> - Most people normally go
 to, at least in the UK. </garnt>
@@ -1710,10 +1710,10 @@ well, the pub will be nice. </connor>
 - You know, it's kind of, </garnt>
 <garnt> - you know, it's a reflection. </garnt>
 <garnt> I don't know the pub scene, </garnt>
-<SPEAKER_02> it's where you get to see the actual, </SPEAKER_02>
-<SPEAKER_02> I'd say culture of the actual place </SPEAKER_02>
-<SPEAKER_02> really is probably the most
-honest way to find out about </SPEAKER_02>
+<joey> it's where you get to see the actual, </joey>
+<joey> I'd say culture of the actual place </joey>
+<joey> really is probably the most
+honest way to find out about </joey>
 <joey> the culture.
 - I'd agree with you. </joey>
 <joey> It's like if you wanna see
@@ -1883,8 +1883,8 @@ and some of the theme bars </joey>
 <joey> - I went there. </joey>
 <joey> - It's called the Meltdown. </joey>
 <joey> - No, it's called, ah, </joey>
-<SPEAKER_02> I think the one now's
-called Platform I think. </SPEAKER_02>
+<joey> I think the one now's
+called Platform I think. </joey>
 <connor> But it was very expensive, like
 to go on the PC it was like, </connor>
 <connor> oh God, it was like paying
@@ -2035,8 +2035,8 @@ a game of UNO the other night, </joey>
 <connor> but I know of a couple
 that I wanna to go to. </connor>
 <garnt> - There's a few in London, actually. </garnt>
-<SPEAKER_02> - [Ashley] There's one
-new gaming bar in, in Juku </SPEAKER_02>
+<joey> - [Ashley] There's one
+new gaming bar in, in Juku </joey>
 <garnt> that actually just (speaking off mic). </garnt>
 <garnt> Well there's one next
 to the Arosa bar, right? </garnt>
@@ -2477,10 +2477,10 @@ hyped for it, I'm hyped. </garnt>
 by the opposite party. </garnt>
 <joey> - It's gonna be one of those
 shows where you just need </joey>
-<SPEAKER_02> to watch it just so you
-can have a take on it. </SPEAKER_02>
-<SPEAKER_02> You know like your personality
-is going to be defined </SPEAKER_02>
+<joey> to watch it just so you
+can have a take on it. </joey>
+<joey> You know like your personality
+is going to be defined </joey>
 <joey> on whether you on what take you have </joey>
 <connor> on the Attack of Titan... </connor>
 <connor> - Match.com will be asking what you felt </connor>
@@ -2583,9 +2583,9 @@ and it was like week by week. </garnt>
 <connor> I wish I was there. </connor>
 <garnt> - I was there during
 the second half of when </garnt>
-<SPEAKER_02> the manga was serializing.
-- Yeah. </SPEAKER_02>
-<SPEAKER_02> - And even that was (beep)ing crazy </SPEAKER_02>
+<joey> the manga was serializing.
+- Yeah. </joey>
+<joey> - And even that was (beep)ing crazy </joey>
 <joey> 'cause like it obviously started </joey>
 <garnt> before I started reading Shonen Jump. </garnt>
 <garnt> So I had to like do a quick
@@ -2643,10 +2643,10 @@ but they kind of need to </connor>
 <joey> - Six seasons, that's not that many </joey>
 <connor> compared to like One Piece or something. </connor>
 <connor> - That's true, that's true. </connor>
-<SPEAKER_02> But like, in terms of that
-many high quality episodes, </SPEAKER_02>
-<SPEAKER_02> that's like a lot.
-- Right, right, right. </SPEAKER_02>
+<joey> But like, in terms of that
+many high quality episodes, </joey>
+<joey> that's like a lot.
+- Right, right, right. </joey>
 <connor> That's true, too. </connor>
 <connor> - It feels like more like an autobiography </connor>
 <connor> or like a biography of
@@ -2671,11 +2671,11 @@ that they filmed every year </garnt>
 <joey> - Yeah, it was sort of a lot. </joey>
 <joey> Was it Boyhood, I can't
 remember if that was... </joey>
-<SPEAKER_02> - [Ashley] Boyhood, there was
-a movie like that with it. </SPEAKER_02>
-<SPEAKER_02> - Yeah, now you can just go on YouTube </SPEAKER_02>
-<SPEAKER_02> and watch those family
-channels just raise their kids. </SPEAKER_02>
+<joey> - [Ashley] Boyhood, there was
+a movie like that with it. </joey>
+<joey> - Yeah, now you can just go on YouTube </joey>
+<joey> and watch those family
+channels just raise their kids. </joey>
 <joey> - I watched (indistinct). </joey>
 <joey> - I can just, who needs that now? </joey>
 <joey> That groundbreaking thing </joey>
@@ -2729,11 +2729,11 @@ influencer, like, house. </joey>
 what I'm saying is like, </connor>
 <garnt> there's probably, there
 must be one of those kids </garnt>
-<SPEAKER_02> on one of those family
-channels that's gonna be like </SPEAKER_02>
-<SPEAKER_02> the first big like YouTuber or something </SPEAKER_02>
-<SPEAKER_02> where his whole entire
-life has been documented </SPEAKER_02>
+<joey> on one of those family
+channels that's gonna be like </joey>
+<joey> the first big like YouTuber or something </joey>
+<joey> where his whole entire
+life has been documented </joey>
 <joey> willingly, awful.
 - Yeah. </joey>
 <joey> - Awful, awful, just not black
@@ -2752,11 +2752,11 @@ what a terrifying thought. </joey>
 <garnt> Awful. </garnt>
 <garnt> - So scary. </garnt>
 <joey> What did you wanna say, Ashley? </joey>
-<SPEAKER_02> - [Ashley] What do you wanna
-know about Boyhood, it won... </SPEAKER_02>
+<joey> - [Ashley] What do you wanna
+know about Boyhood, it won... </joey>
 <joey> - How long did it like take to make. </joey>
-<SPEAKER_02> - 2002 to 2013, so.
-- So 11 years. </SPEAKER_02>
+<joey> - 2002 to 2013, so.
+- So 11 years. </joey>
 <joey> - 11 years. </joey>
 <joey> I know it got like canceled,
 almost got canceled </joey>
@@ -3013,13 +3013,13 @@ Demon Slayer or has watched it. </garnt>
 - Yeah. </garnt>
 <garnt> - Do you think it's the
 movie that's got it this big </garnt>
-<SPEAKER_02> 'cause I didn't realize how big it was. </SPEAKER_02>
-<SPEAKER_02> - No, I think...
-- It was already big before. </SPEAKER_02>
-<SPEAKER_02> - I think.
-- Oh, yeah </SPEAKER_02>
-<SPEAKER_02> How big it already is was the
-reason why the movie's like </SPEAKER_02>
+<joey> 'cause I didn't realize how big it was. </joey>
+<joey> - No, I think...
+- It was already big before. </joey>
+<joey> - I think.
+- Oh, yeah </joey>
+<joey> How big it already is was the
+reason why the movie's like </joey>
 <garnt> the (beep)ing like highest
 grossing from all time. </garnt>
 <joey> - 'Cause like that one
@@ -3039,19 +3039,19 @@ then Demon Slayer came out, </joey>
 <joey> let me like 10 times
 like your previous sales. </joey>
 <garnt> It hilarious when you saw the graph </garnt>
-<SPEAKER_02> 'cause it was like all these
-other's shown in jump stuff, </SPEAKER_02>
-<SPEAKER_02> and then it's like One Piece. </SPEAKER_02>
+<joey> 'cause it was like all these
+other's shown in jump stuff, </joey>
+<joey> and then it's like One Piece. </joey>
 <garnt> It was like Demon Slayer. </garnt>
-<SPEAKER_02> - [Ashley] Because within 2019, </SPEAKER_02>
+<joey> - [Ashley] Because within 2019, </joey>
 <garnt> the rankings for like (speaking off mic) </garnt>
 <garnt> rankings, like Demon
 Slayer was like every week. </garnt>
 <garnt> - Every, yeah it was every week. </garnt>
 <garnt> - [Ashley] Jujutsu Kaisen
 came out (speaking off mic) </garnt>
-<SPEAKER_02> It was like second and
-first, and then like </SPEAKER_02>
+<joey> It was like second and
+first, and then like </joey>
 <joey> it's a fight between Demon Slayer. </joey>
 <joey> - I was going to say Jujutsu
 Kaisen seems almost equally </joey>
@@ -3289,9 +3289,9 @@ mean, it's like I said, </joey>
 <joey> - I wish they wish they had some power </joey>
 <joey> that could make them useful. </joey>
 <joey> I'm joking, I'm joking. </joey>
-<SPEAKER_02> - I know why the cast is popular. </SPEAKER_02>
-<SPEAKER_02> 'cause you can call every
-character a cinnamon bun. </SPEAKER_02>
+<joey> - I know why the cast is popular. </joey>
+<joey> 'cause you can call every
+character a cinnamon bun. </joey>
 <joey> - That's...
 - Why, why can you do that? </joey>
 <garnt> - I dunno.
@@ -3621,18 +3621,18 @@ saw how good Demon Slayer </garnt>
 <garnt> - I'm going to bold prediction. </garnt>
 <garnt> I don't care if this
 ends up being all like </garnt>
-<SPEAKER_02> pull the age things, bold prediction. </SPEAKER_02>
+<joey> pull the age things, bold prediction. </joey>
 <garnt> I think it's gonna be a movie. </garnt>
-<SPEAKER_02> - (Ashley speaking off mic) </SPEAKER_02>
+<joey> - (Ashley speaking off mic) </joey>
 <garnt> - Yeah, but that was a pretty-cool. </garnt>
 <garnt> - But that was a pretty cool, right? </garnt>
-<SPEAKER_02> - [Ashley] Yeah, but still
-it actually pre-tells. </SPEAKER_02>
-<SPEAKER_02> You have to know the characters. </SPEAKER_02>
+<joey> - [Ashley] Yeah, but still
+it actually pre-tells. </joey>
+<joey> You have to know the characters. </joey>
 <joey> - Does the Jujutsu Kaisen movie
 follow any source material? </joey>
-<SPEAKER_02> - [Ashley] They actually
-release the prequel manga. </SPEAKER_02>
+<joey> - [Ashley] They actually
+release the prequel manga. </joey>
 <garnt> - There's a prequel manga that... </garnt>
 <garnt> - [Ashley] So it kind of follows
 the same formula as the... </garnt>
@@ -3779,8 +3779,8 @@ that's 'cause maybe </connor>
 <garnt> - A lot more, more grandiose and such. </garnt>
 <joey> - Garnt's girlfriend,
 that's grandiose, right? </joey>
-<SPEAKER_02> It's grandiose. (everyone
-laughing hysterically) </SPEAKER_02>
+<joey> It's grandiose. (everyone
+laughing hysterically) </joey>
 <joey> - That's grandiose. </joey>
 <joey> - (audio cutting out)
 you're rooting for, right? </joey>
@@ -4053,14 +4053,14 @@ impossible to explain </connor>
 explain the story, period. </garnt>
 <garnt> Even if I did spoil
 it, I can't explain it. </garnt>
-<SPEAKER_02> - I was like considering
-doing a Twitch stream </SPEAKER_02>
-<SPEAKER_02> for this play-through 'cause I was like </SPEAKER_02>
-<SPEAKER_02> more people need to like
-experience the story. </SPEAKER_02>
-<SPEAKER_02> But then I was like
-thinking about what would </SPEAKER_02>
-<SPEAKER_02> the experience be like for a viewer? </SPEAKER_02>
+<joey> - I was like considering
+doing a Twitch stream </joey>
+<joey> for this play-through 'cause I was like </joey>
+<joey> more people need to like
+experience the story. </joey>
+<joey> But then I was like
+thinking about what would </joey>
+<joey> the experience be like for a viewer? </joey>
 <joey> And like, if you switch
 off for like five minutes, </joey>
 <joey> you go, you go make a
@@ -4291,9 +4291,9 @@ harder than their base game. </connor>
 many people have beaten </joey>
 <joey> the base game, but I know
 that only 2% of the people </joey>
-<SPEAKER_02> who have it on stream beat the second DLC. </SPEAKER_02>
-<SPEAKER_02> And there's a third DLC,
-which is even harder, </SPEAKER_02>
+<joey> who have it on stream beat the second DLC. </joey>
+<joey> And there's a third DLC,
+which is even harder, </joey>
 <connor> which I'm too afraid to attempt. </connor>
 <garnt> - Didn't Ludwig beat like all
 three of them in like an hour. </garnt>
@@ -4326,8 +4326,8 @@ points where you can get </connor>
 <joey> to where you're kind of safe. </joey>
 <joey> You can't fall too far, </joey>
 <joey> but the second DLC, there's points </joey>
-<SPEAKER_02> where like you can fall massively. </SPEAKER_02>
-<SPEAKER_02> And there's never any safe points. </SPEAKER_02>
+<joey> where like you can fall massively. </joey>
+<joey> And there's never any safe points. </joey>
 <joey> And in the third one
 again, there's another, </joey>
 <garnt> even harsher jump, and it's just brutal. </garnt>
@@ -4356,12 +4356,12 @@ they do here and there. </joey>
 <joey> But it's a very rewarding experience. </joey>
 <joey> However, I do not wanna do
 it again for a long time. </joey>
-<SPEAKER_02> I had horrible anxiety on the last day </SPEAKER_02>
-<SPEAKER_02> because I was getting to the end. </SPEAKER_02>
-<SPEAKER_02> I just wanted it to be (fuck)ing over with </SPEAKER_02>
-<SPEAKER_02> 'cause I was so close and if I fell, </SPEAKER_02>
-<SPEAKER_02> I would go all the way back down. </SPEAKER_02>
-<SPEAKER_02> And it's just horrible. </SPEAKER_02>
+<joey> I had horrible anxiety on the last day </joey>
+<joey> because I was getting to the end. </joey>
+<joey> I just wanted it to be (fuck)ing over with </joey>
+<joey> 'cause I was so close and if I fell, </joey>
+<joey> I would go all the way back down. </joey>
+<joey> And it's just horrible. </joey>
 <garnt> I think my heart rate was like resting </garnt>
 <garnt> at like 110 or something
 'cause it was just, </garnt>
@@ -4486,11 +4486,11 @@ there's margin of error </connor>
 <connor> you can obviously move
 a lot, but sometimes </connor>
 <connor> they do like just like a little pole. </connor>
-<SPEAKER_02> and you have literally like, </SPEAKER_02>
-<SPEAKER_02> you have to get the arc perfect. </SPEAKER_02>
-<SPEAKER_02> - Right.
-- Right. </SPEAKER_02>
-<SPEAKER_02> And sometimes there's ice on the platform </SPEAKER_02>
+<joey> and you have literally like, </joey>
+<joey> you have to get the arc perfect. </joey>
+<joey> - Right.
+- Right. </joey>
+<joey> And sometimes there's ice on the platform </joey>
 <connor> so you can fall off or
 they're rounded, so you can... </connor>
 <garnt> - It just sounds like those
@@ -4702,7 +4702,7 @@ doing in the, like the past </joey>
 playing 13 Sentinels, </garnt>
 <garnt> but I did notice, normally Joey uploads, </garnt>
 <garnt> like every other day on his Joey channel. </garnt>
-<SPEAKER_02> Suddenly he stopped uploading. </SPEAKER_02>
+<joey> Suddenly he stopped uploading. </joey>
 <garnt> Dude, I didn't even tweet for three days. </garnt>
 <garnt> I was like, I was literally
 shut out from the world. </garnt>
@@ -4722,10 +4722,10 @@ love Final Fantasy games. </joey>
 around me is playing it as well, </joey>
 <connor> right, so I'm like
 there's no better feeling </connor>
-<SPEAKER_02> than playing an MMO with
-a bunch of mates, right? </SPEAKER_02>
-<SPEAKER_02> That's true obviously. </SPEAKER_02>
-<SPEAKER_02> So I was like, no, I have to stop myself. </SPEAKER_02>
+<joey> than playing an MMO with
+a bunch of mates, right? </joey>
+<joey> That's true obviously. </joey>
+<joey> So I was like, no, I have to stop myself. </joey>
 <joey> I wanna be a responsible adult </joey>
 <garnt> that actually does what he needs
 to do and what's important. </garnt>
@@ -4949,7 +4949,7 @@ sales are coming back </joey>
 <joey> So that's that's coming up, so... </joey>
 <garnt> - The reason why 16's been
 delayed for like two years </garnt>
-<SPEAKER_02> is because (speaking off mic). </SPEAKER_02>
+<joey> is because (speaking off mic). </joey>
 <connor> - I remember when that
 game initially released </connor>
 <connor> the Final Fantasy Online,
@@ -5126,11 +5126,11 @@ play this game and... </joey>
 - Right? </joey>
 <joey> 'Cause for my rule of
 thumb with new consoles </joey>
-<SPEAKER_02> is I need at least like maybe three games </SPEAKER_02>
-<SPEAKER_02> where I'm like, I really wanna play this. </SPEAKER_02>
-<SPEAKER_02> That'll get me to finally buy it. </SPEAKER_02>
-<SPEAKER_02> Like that's what I did with the Switch. </SPEAKER_02>
-<SPEAKER_02> That's what I did with the PS4. </SPEAKER_02>
+<joey> is I need at least like maybe three games </joey>
+<joey> where I'm like, I really wanna play this. </joey>
+<joey> That'll get me to finally buy it. </joey>
+<joey> Like that's what I did with the Switch. </joey>
+<joey> That's what I did with the PS4. </joey>
 <joey> Like if it's just like one or two games, </joey>
 <garnt> then I'm like, what am I gonna
 do after I finish that game? </garnt>
@@ -5152,8 +5152,8 @@ play Persona Five, so yeah. </garnt>
 <joey> (Ashley speaking off mic) </joey>
 <joey> - FF7 Remake.
 - Is it actually? </joey>
-<SPEAKER_02> - [Ashley] If I'm mistaken,
-that's why I got the PS. </SPEAKER_02>
+<joey> - [Ashley] If I'm mistaken,
+that's why I got the PS. </joey>
 <connor> - It doesn't feel like a
 true PS5 or like a Next-Gen, </connor>
 <joey> and if it's on like the Gen before. </joey>
@@ -5164,9 +5164,9 @@ true PS5 or like a Next-Gen, </connor>
 loaded of time, right? </joey>
 <joey> - Yeah.
 - Oh, the privilege. </joey>
-<SPEAKER_02> (Ashley speaking of mic) </SPEAKER_02>
-<SPEAKER_02> - [Ashley] Oh, we'll increase
-our sales for PS4s instead. </SPEAKER_02>
+<joey> (Ashley speaking of mic) </joey>
+<joey> - [Ashley] Oh, we'll increase
+our sales for PS4s instead. </joey>
 <garnt> - Cool, thanks, Sony.
 - Cool, thanks. </garnt>
 <connor> - Cheers for that. </connor>
@@ -5198,9 +5198,9 @@ there a potato shortage? </joey>
 <connor> because they believe that theirs... </connor>
 <garnt> - So we had a potato shortage.
 - We had a potato shortage. </garnt>
-<SPEAKER_02> - [Ashley] The french fries, </SPEAKER_02>
-<SPEAKER_02> wasn't it because they couldn't
-get salt, like the imports? </SPEAKER_02>
+<joey> - [Ashley] The french fries, </joey>
+<joey> wasn't it because they couldn't
+get salt, like the imports? </joey>
 <connor> - Maybe, I'm pretty sure
 Japan doesn't import </connor>
 <connor> the majority of their potatoes. </connor>
@@ -5225,14 +5225,14 @@ there was a really bad season </joey>
 <connor> So they didn't have any pizza potato chips </connor>
 <connor> and people were really angry. </connor>
 <connor> - Of course, like. </connor>
-<SPEAKER_02> - [Ashley] They do import
-the fries are processed </SPEAKER_02>
-<SPEAKER_02> in the US and Canada before
-being shipped to Japan. </SPEAKER_02>
+<joey> - [Ashley] They do import
+the fries are processed </joey>
+<joey> in the US and Canada before
+being shipped to Japan. </joey>
 <connor> - Oh, really, they are? </connor>
 <connor> Maybe it's just maybe potato chips then? </connor>
-<SPEAKER_02> - [Ashley] Like shipping disruptions in </SPEAKER_02>
-<SPEAKER_02> on Vancouver's side so we can get... </SPEAKER_02>
+<joey> - [Ashley] Like shipping disruptions in </joey>
+<joey> on Vancouver's side so we can get... </joey>
 <connor> - Maybe it's just for potato chips then. </connor>
 <joey> Japan is like, or like
 maybe Kelpie is like, </joey>
@@ -5365,12 +5365,12 @@ imported from like Philippines. </garnt>
 you're like, I have no idea </garnt>
 <connor> if this banana is gonna
 be like (beep) or good </connor>
-<SPEAKER_02> - Right.
-- You know what I mean? </SPEAKER_02>
-<SPEAKER_02> - [Ashley] Can grow bananas
-in Okinawa, Kogoshima. </SPEAKER_02>
-<SPEAKER_02> - Oh, that makes sense.
-- Oh, okay. </SPEAKER_02>
+<joey> - Right.
+- You know what I mean? </joey>
+<joey> - [Ashley] Can grow bananas
+in Okinawa, Kogoshima. </joey>
+<joey> - Oh, that makes sense.
+- Oh, okay. </joey>
 <connor> - You just never know if
 a banana's gonna taste </connor>
 <connor> like the perfect banana, right? </connor>
@@ -5453,10 +5453,10 @@ they're like pre-portioned. </connor>
 <joey> - Again.
 - They're like the perfect... </joey>
 <joey> - Pre-portioned! </joey>
-<SPEAKER_02> - They're like, we as humans,
-we love portioned food. </SPEAKER_02>
-<SPEAKER_02> We love it when something tells us </SPEAKER_02>
-<SPEAKER_02> this is how much you're eating. </SPEAKER_02>
+<joey> - They're like, we as humans,
+we love portioned food. </joey>
+<joey> We love it when something tells us </joey>
+<joey> this is how much you're eating. </joey>
 <connor> - Yeah.
 - And the bananas </connor>
 <connor> is the perfect one. </connor>
@@ -5649,8 +5649,8 @@ out your (beep) right now. </connor>
 <connor> What if it just.
 - It does exist. </connor>
 <connor> - It's completely artificial. </connor>
-<SPEAKER_02> - [Ashley] In his defense, it did exist. </SPEAKER_02>
-<SPEAKER_02> (talking over each other) </SPEAKER_02>
+<joey> - [Ashley] In his defense, it did exist. </joey>
+<joey> (talking over each other) </joey>
 <joey> - Right, but... </joey>
 <garnt> - We can't have it
 anymore, Garnt, it's gone. </garnt>
@@ -5754,7 +5754,7 @@ was special or something? </connor>
 <joey> - Ah, no because...
 - I don't know. </joey>
 <joey> Do you know why Ashley? </joey>
-<SPEAKER_02> - [Ashley] I can Google it for you. </SPEAKER_02>
+<joey> - [Ashley] I can Google it for you. </joey>
 <joey> - Google it, I'm going to speculate. </joey>
 <garnt> Is it because they were
 just (beep) weak animals? </garnt>
@@ -5774,8 +5774,8 @@ that came up to it, </garnt>
 reasons is because... </garnt>
 <garnt> - Look, I've seen Ice Age. </garnt>
 <garnt> I know exactly what happened. </garnt>
-<SPEAKER_02> - Their habitat was almost
-completely destroyed </SPEAKER_02>
+<joey> - Their habitat was almost
+completely destroyed </joey>
 <joey> after people started
 settling on Mauritius. </joey>
 <joey> - Ah, people. </joey>
@@ -5843,18 +5843,18 @@ as little as possible. </joey>
 <joey> - Yeah, yeah. </joey>
 <connor> - I hate those comments though. </connor>
 <joey> - What is it you wanna say, Ashley? </joey>
-<SPEAKER_02> - [Ashley] There was an animal </SPEAKER_02>
-<SPEAKER_02> that was literally eaten to death though. </SPEAKER_02>
-<SPEAKER_02> I think it was the giant tortoise. </SPEAKER_02>
-<SPEAKER_02> - Most, animals are eaten.
-- Yeah, that's on us. </SPEAKER_02>
-<SPEAKER_02> - [Ashley] Ate the whole species to death. </SPEAKER_02>
+<joey> - [Ashley] There was an animal </joey>
+<joey> that was literally eaten to death though. </joey>
+<joey> I think it was the giant tortoise. </joey>
+<joey> - Most, animals are eaten.
+- Yeah, that's on us. </joey>
+<joey> - [Ashley] Ate the whole species to death. </joey>
 <joey> - Okay.
 - That's on us, that's on us. </joey>
 <joey> - What animals that? </joey>
-<SPEAKER_02> - [Ashley] I think it
-was a giant tortoise. </SPEAKER_02>
-<SPEAKER_02> - How the (beep) to you eat that? </SPEAKER_02>
+<joey> - [Ashley] I think it
+was a giant tortoise. </joey>
+<joey> - How the (beep) to you eat that? </joey>
 <connor> - What, humans?
 - How do you even start? </connor>
 <joey> - What's (beep)ing wrong with us? </joey>
