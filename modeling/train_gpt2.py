@@ -6,14 +6,14 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel, AdamW, get_linear_sched
 from tqdm import tqdm
 from datasets import Transcript
 
-dataset_fn = '../annotated_w_names/dataset.txt'
+dataset_fn = '../annotated_w_names/_dataset.txt'
 model_dir = 'models/'
 
 #Get the tokenizer and model
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-# model = GPT2LMHeadModel.from_pretrained('gpt2')
+model = GPT2LMHeadModel.from_pretrained('gpt2')
 # model.load_state_dict(torch.load('models/gpt2_15ep.pt'))
-model = torch.load('models/gpt2_20ep.pt')
+# model = torch.load('models/gpt2_20ep.pt')
 
 #dataset
 dataset_f = open(dataset_fn, 'r', encoding='utf-8')
@@ -34,7 +34,7 @@ def train(
     dataset, model, tokenizer,
     batch_size=128, epochs=5, lr=2e-5,
     max_seq_len=400, warmup_steps=200,
-    gpt2_type="gpt2", output_dir="models", output_prefix="gpt2_15ep",
+    gpt2_type="gpt2", output_dir="models", output_prefix="gpt2_full_data",
     test_mode=False,save_model_on_epoch=True,
 ):
     acc_steps = 100
@@ -82,5 +82,5 @@ def train(
             )
     return model
 
-model = train(dataset, model, tokenizer)
-torch.save(model, model_dir + 'gpt2_20ep.pt')
+model = train(dataset, model, tokenizer, epochs=20)
+torch.save(model, model_dir + 'gpt2_20ep_full_dataset.pt')
