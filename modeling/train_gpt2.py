@@ -4,7 +4,7 @@ import torch
 from torch.utils.data import DataLoader
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, AdamW, get_linear_schedule_with_warmup
 from tqdm import tqdm
-from datasets import Transcript
+from custom_datasets import GPT2Transcript
 
 dataset_fn = '../annotated_w_names/_dataset.txt'
 model_dir = 'models/'
@@ -17,7 +17,7 @@ model = GPT2LMHeadModel.from_pretrained('gpt2')
 
 #dataset
 dataset_f = open(dataset_fn, 'r', encoding='utf-8')
-dataset = Transcript(dataset_f.read(), gpt2_type="gpt2") 
+dataset = GPT2Transcript(dataset_f.read(), gpt2_type="gpt2") 
 dataset_f.close()
 
 #Accumulated batch size (since GPT2 is so big)
