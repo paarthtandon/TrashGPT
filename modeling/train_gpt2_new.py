@@ -8,7 +8,7 @@ dataset_fn = '../annotated_w_names/_dataset.txt'
 model_dir = 'models/gpt_med'
 
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2-medium', pad_token='<|pad|>')
-model = GPT2LMHeadModel.from_pretrained('gpt2-medium', device_map='auto').cuda()
+model = GPT2LMHeadModel.from_pretrained('gpt2-medium').cuda()
 model.resize_token_embeddings(len(tokenizer))
 
 dataset_f = open(dataset_fn, 'r', encoding='utf-8')
