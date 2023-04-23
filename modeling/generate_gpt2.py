@@ -70,15 +70,35 @@ def generate(
 def text_generation(model, tokenizer):
   generated = []
   for i in range(1):
-    x = generate(model.to(device), tokenizer, prompt='<garnt>', entry_count=1)
+    x = generate(model.to(device), tokenizer, prompt='<title>', entry_count=1)
     generated.append(x)
   return generated
 
 #Run the functions to generate the lyrics
-model = torch.load('models/gpt2_20ep.pt')
+# model = torch.load('models/gpt_med/checkpoint-5000/pytorch_model.bin')
 # model = GPT2LMHeadModel.from_pretrained('gpt2')
 # model.load_state_dict(torch.load('models/gpt2_15ep.pt'))
 
-tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-generated = text_generation(model, tokenizer)
-print(generated[0][0])
+# tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2-medium', pad_token='<|pad|>')
+model = GPT2LMHeadModel.from_pretrained('gpt2-medium')
+model.resize_token_embeddings(len(tokenizer))
+model.load_state_dict(torch.load('models/gpt_med/checkpoint-35000/pytorch_model.bin'))
+
+# generated = text_generation(model, tokenizer)
+# print(generated[0][0])
+
+# encode context the generation is conditioned on
+input_ids = tokenizer.encode('<title>', return_tensors='pt')
+
+# activate sampling and deactivate top_k by setting top_k sampling to 0
+sample_output = model.generate(
+    input_ids, 
+    do_sample=True, 
+    max_length=1024, 
+    # top_k=50, 
+    top_p=0.75
+)
+
+print("Output:\n" + 100 * '-')
+print(tokenizer.decode(sample_output[0], skip_special_tokens=True))
