@@ -1,4 +1,6 @@
-torch
+transformers
+bitsandbytes
+accelerate
 yt-dlp
 pyannote.audio
 python-dotenv
