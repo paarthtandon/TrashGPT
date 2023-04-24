@@ -84,12 +84,13 @@ tokenizer = GPT2Tokenizer.from_pretrained('gpt2-medium', pad_token='<|pad|>')
 model = GPT2LMHeadModel.from_pretrained('gpt2-medium')
 model.resize_token_embeddings(len(tokenizer))
 model.load_state_dict(torch.load('models/gpt_med/checkpoint-35000/pytorch_model.bin'))
+model.to(device)
 
 # generated = text_generation(model, tokenizer)
 # print(generated[0][0])
 
 # encode context the generation is conditioned on
-input_ids = tokenizer.encode('<title>', return_tensors='pt')
+input_ids = tokenizer.encode('<title> global warming </title>', return_tensors='pt').to(device)
 
 # activate sampling and deactivate top_k by setting top_k sampling to 0
 sample_output = model.generate(

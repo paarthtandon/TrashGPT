@@ -1,18 +1,15 @@
-import pandas as pd
 import torch
-from torch.utils.data import Dataset, random_split
-from transformers import GPT2Tokenizer, TrainingArguments, Trainer, GPT2LMHeadModel
-from custom_datasets import GPT2Transcript
+from transformers import AutoTokenizer, BloomForCausalLM, TrainingArguments, Trainer
+from custom_datasets import BloomTranscript
 
 dataset_fn = '../annotated_w_names/_dataset.txt'
-model_dir = 'models/gpt_med'
+model_dir = 'models/bloom_560'
 
-tokenizer = GPT2Tokenizer.from_pretrained('gpt2-medium', pad_token='<|pad|>')
-model = GPT2LMHeadModel.from_pretrained('gpt2-medium').cuda()
-model.resize_token_embeddings(len(tokenizer))
+tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom-560m")
+model = BloomForCausalLM.from_pretrained("bigscience/bloom-560m").cuda()
 
 dataset_f = open(dataset_fn, 'r', encoding='utf-8')
-dataset = GPT2Transcript(dataset_f.read(), tokenizer)
+dataset = BloomTranscript(dataset_f.read(), tokenizer)
 dataset_f.close()
 
 torch.cuda.empty_cache()
@@ -39,4 +36,5 @@ trainer = Trainer(model=model,
         )
 
 trainer.train()
-trainer.save_model(model_dir + 'gpt2med_final.pt')
+trainer.save_model(model_dir + 'bloom560_final.pt')
+
