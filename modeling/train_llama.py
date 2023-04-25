@@ -5,8 +5,8 @@ from custom_datasets import BloomTranscript
 dataset_fn = '../annotated_w_names/_dataset.txt'
 model_dir = 'models/llama'
 
-tokenizer = LlamaTokenizer.from_pretrained("huggyllama/llama-7b")
-model = LlamaForCausalLM.from_pretrained("huggyllama/llama-7b").cuda()
+tokenizer = LlamaTokenizer.from_pretrained("decapoda-research/llama-7b-hf")
+model = LlamaForCausalLM.from_pretrained("decapoda-research/llama-7b-hf").cuda()
 
 dataset_f = open(dataset_fn, 'r', encoding='utf-8')
 dataset = BloomTranscript(dataset_f.read(), tokenizer)
