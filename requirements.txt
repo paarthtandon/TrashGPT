@@ -1,8 +1,9 @@
-git+https://github.com/huggingface/transformers
+git+https://github.com/huggingface/transformers@main
+git+https://github.com/huggingface/peft.git
 bitsandbytes
 accelerate
-yt-dlp
-pyannote.audio
-python-dotenv
+# yt-dlp
+# pyannote.audio
+# python-dotenv
 pandas
 tqdm
