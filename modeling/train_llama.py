@@ -6,8 +6,9 @@ from custom_datasets import BloomTranscript
 dataset_fn = '../annotated_w_names/_dataset.txt'
 model_dir = 'models/llama'
 
-tokenizer = LlamaTokenizer.from_pretrained("decapoda-research/llama-7b-hf")
-model = LlamaForCausalLM.from_pretrained("decapoda-research/llama-7b-hf", device_map='audio', load_in_8bit=True)
+tokenizer = LlamaTokenizer.from_pretrained("decapoda-research/llama-7b-hf", pad_token='<|pad|>')
+model = LlamaForCausalLM.from_pretrained("decapoda-research/llama-7b-hf", device_map='auto', load_in_8bit=True)
+model.resize_token_embeddings(len(tokenizer))
 
 for param in model.parameters():
   param.requires_grad = False  # freeze the model - train adapters later
@@ -18,7 +19,7 @@ for param in model.parameters():
 model.gradient_checkpointing_enable()  # reduce number of stored activations
 model.enable_input_require_grads()
 
-class CastOutputToFloat(nn.Sequential):
+class CastOutputToFloat(torch.nn.Sequential):
   def forward(self, x): return super().forward(x).to(torch.float32)
 model.lm_head = CastOutputToFloat(model.lm_head)
 
@@ -56,16 +57,20 @@ trainer = Trainer(
     model=model, 
     train_dataset=dataset,
     args=TrainingArguments(
-        per_device_train_batch_size=4, 
+        per_device_train_batch_size=1, 
         gradient_accumulation_steps=4,
         warmup_steps=100, 
-        max_steps=200, 
-        learning_rate=2e-4, 
+        # learning_rate=2e-4, 
         fp16=True,
         logging_steps=1, 
         output_dir=model_dir
     ),
-    data_collator=DataCollatorForLanguageModeling(tokenizer, mlm=False)
+    # data_collator=DataCollatorForLanguageModeling(tokenizer, mlm=False)
+    data_collator=lambda data: {
+                'input_ids': torch.stack([f[0] for f in data]),
+                'attention_mask': torch.stack([f[1] for f in data]),
+                'labels': torch.stack([f[0] for f in data])
+            }
 )
 model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
 trainer.train()
