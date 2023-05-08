@@ -4,7 +4,7 @@ from peft import LoraConfig, get_peft_model
 from custom_datasets import BloomTranscript
 
 dataset_fn = '../annotated_w_names/_dataset.txt'
-model_dir = 'models/llama'
+model_dir = 'models/llama/'
 
 tokenizer = LlamaTokenizer.from_pretrained("decapoda-research/llama-7b-hf", pad_token='<|pad|>')
 model = LlamaForCausalLM.from_pretrained("decapoda-research/llama-7b-hf", device_map='auto', load_in_8bit=True)
@@ -59,6 +59,7 @@ trainer = Trainer(
     args=TrainingArguments(
         per_device_train_batch_size=1, 
         gradient_accumulation_steps=4,
+        num_train_epochs=1,
         warmup_steps=100, 
         # learning_rate=2e-4, 
         fp16=True,
@@ -73,7 +74,7 @@ trainer = Trainer(
             }
 )
 model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
-trainer.train()
+trainer.train(model_dir + 'checkpoint-1500')
 
 trainer.save_model(model_dir + 'llama_final.pt')
 
