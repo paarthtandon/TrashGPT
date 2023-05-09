@@ -1,5 +1,6 @@
-*** BASELINE PROMPTS (No specialized information, just generate a conversation)***
+# BASELINE PROMPTS (No specialized information, just generate a conversation)
 prompt: Make a conversation that could happen on the Trash Taste podcast.
+```
 response: [
   {
     message: {
@@ -25,9 +26,13 @@ response: [
     index: 0
   }
 ]
+```
+
 
 prompt: Generate a short conversation that could take place between the three members of Trash Taste on an episode of the podcast.
-response: [
+response: 
+```
+[
   {
     message: {
       role: 'assistant',
@@ -50,10 +55,12 @@ response: [
     index: 0
   }
 ]
-
+```
 
 prompt: Generate a conversation that could occur on an episode of the Trash Taste podcast.
-response: [
+response: 
+```
+[
   {
     message: {
       role: 'assistant',
@@ -83,10 +90,12 @@ response: [
     index: 0
   }
 ]
-
+```
 
 prompt: Provide a conversation between the three hosts of Trash Taste that could occur on their podcast.
-response: [
+response: 
+```
+[
   {
     message: {
       role: 'assistant',
@@ -120,10 +129,11 @@ response: [
     index: 0
   }
 ]
-
+```
 
 prompt: Make a conversation between The Anime Man, C-DawgVA, and Gigguk that could happen on their podcast.
 response:
+```
 [
   {
     message: {
@@ -155,3 +165,4 @@ response:
     index: 0
   }
 ]
+```
