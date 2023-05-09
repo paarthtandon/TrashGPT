@@ -1,0 +1,82 @@
+*** BASELINE PROMPTS (No specialized information, just generate a conversation)***
+prompt: Generate a conversation between the three members of Trash Taste.
+response: [
+  {
+    message: {
+      role: 'assistant',
+      content: "Gigguk (G): Alright boys, what's something new and spicy we should talk about in the next podcast?\n" +
+        'The Anime Man (A): How about discussing some of the most controversial takes in the anime community? I think that would be interesting and definitely get some reactions from both the viewers and us.\n' +
+        'CDawgVA (C): That actually sounds like a great idea! We can talk about things like "sub vs dub" and "best girl" arguments.\n' +
+        'G: Or even trigger people with our personal hot takes on popular anime, like "Your Name is overrated" or something. I feel the internet pitchforks coming for me already.\n' +
+        "A: Now you're talking! And we can also discuss why some people feel so strongly about their opinions when it comes to anime. Like, it's just a medium for entertainment, after all.\n" +
+        'C: True, true. Which leads me to think, why is it that when we watch anime, we develop these weird personal attachments to certain characters or shows? I mean, I know I do that, but what do you guys think might be the reason?\n' +
+        "G: If I had to guess, it's probably just because anime offers a kind of escapism that no other medium can provide. And the fact that the characters are drawn allows for even more imaginative freedom. Plus, Japanese storytelling and world-building can be more immersive than other entertainment forms we typically consume.\n" +
+        "A: Yeah, I totally agree. Anime often touches on themes and topics that resonate with people on a deeper level, and it's not just for the flashy visuals or epic battles. We can relate to events and experiences, so it's only natural that we get attached.\n" +
+        "C: And that's why we should all love anime! But getting back to our topic, should we also open up the conversation by sharing some of our own hidden gems, shows that people might not really know but should definitely watch?\n" +
+        "G: Sounds like a plan! We all have our favorite underrated shows that deserve a spotlight. Plus, it's always good to introduce our audience to something they might end up loving.\n" +
+        "A: Agreed! Alright, so we have a plan for the next podcast. Let's gather our controversial opinions and hidden gems, and prepare for one hell of a heated discussion!\n" +
+        "C: I can already see the comment section on fire! But hey, that's what having a Trash Taste is all about, right? Let's do this!"
+    },
+    finish_reason: 'stop',
+    index: 0
+  }
+]
+
+
+prompt: Generate a short conversation that could take place between the three members of Trash Taste on an episode of the podcast.
+response: [
+  {
+    message: {
+      role: 'assistant',
+      content: '[Opening of the podcast]\n' +
+        "Joey: Ladies and gentlemen, welcome back to another episode of Trash Taste! I'm your host for today, Joey, and as always, I'm joined by my boys, Gigguk and Connor.\n" +
+        "Gigguk: What's up, guys?\n" +
+        'Connor: Hey, everyone!\n' +
+        "Joey: So, today we've got something interesting to talk about. Our favorite underrated anime. Boys, what are some hidden gems that you think deserve more love and attention?\n" +
+        `Gigguk: Well, personally, I think "Bokurano" is a pretty underrated mecha anime. It's dark, twisted, and has a really interesting premise. Definitely not your typical giant robot show.\n` +
+        `Connor: Dude, totally agree with you! That anime messed with my head the first time I watched it. It's not just about mecha fights; it really dives into the psychological aspect. I'd add "Kino's Journey" as well, such a chill and philosophical anime, but it doesn't get the recognition it deserves.\n` +
+        `Joey: Both great picks! "Bokurano" definitely took a unique approach to the mecha genre, and "Kino's Journey" is just so captivating with its episodic storytelling. For me, I'd have to say "Haibane Renmei." It's just such a thought-provoking and atmospheric show, but I rarely see anyone talking about it.\n` +
+        "Gigguk: Oh, that's a good choice too! It's been a while since I've seen that, but yeah, it has such a unique vibe to it.\n" +
+        'Connor: I also think "Monster" is an underrated classic. The atmosphere is dark and the storyline is amazing, but not many people seem to talk about it.\n' +
+        'Joey: True, true! There are a lot of hidden gems out there, so guys, make sure to share some of your underrated anime picks with us on Twitter or in the comments!\n' +
+        "Gigguk: Make sure to check out these amazing shows if you haven't already.\n" +
+        "Connor: And as always, thanks for tuning in to Trash Taste. We'll see you all in the next episode. Sayonara!\n" +
+        '[End of podcast]'
+    },
+    finish_reason: 'stop',
+    index: 0
+  }
+]
+
+
+prompt: Generate a conversation that could occur on an episode of the Trash Taste podcast.
+[
+  {
+    message: {
+      role: 'assistant',
+      content: '[INTRO MUSIC]\n' +
+        "Joey: Welcome back everybody to yet another episode of the Trash Taste podcast! I'm your host, Joey, and with me as always are my good buddies, Connor and Garnt.\n" +
+        "Garnt: Hey, what's up guys!\n" +
+        'Connor: Hello everyone!\n' +
+        `Joey: So, today I figured we could have a little chat about something we've all come to love throughout our years in the anime community. Let's talk about "fan service" and how it has developed and changed over time. I mean, it's quite the trashy topic, isn't it?\n` +
+        'Garnt: Oh, definitely.\n' +
+        'Connor: Perfect for us!\n' +
+        `Joey: Right! So, let's start with defining what "fan service" actually means. Garnt, want to give it a go?\n` +
+        `Garnt: Sure thing! So, in general, "fan service" is content that essentially caters to the desires of fans, often through sexually suggestive or provocative scenes, but it can also include other elements like references to other works, splashy transformations, or cameos. It's basically anything that creators add to a series to attract and entertain viewers beyond the core story and characters.\n` +
+        "Connor: Yeah, and while it's true that fan service has become a pretty big part of the anime culture, it's not exclusive to the medium. You can find it in movies, TV series, comic books, and basically any form of entertainment.\n" +
+        `Joey: No doubt about that. So, let's talk about how fan service has evolved throughout the years. Personally, I remember watching anime like "Neon Genesis Evangelion" and "Cowboy Bebop" where the fan service was definitively more subtle compared to some of the stuff we see this nowadays.\n` +
+        'Garnt: Yeah, those were definitely different times. Back in the 90s, you would usually get a flash of skin, or maybe a slightly sexy pose, and that was as far as the fan service would go. But over time, creators have started pushing the boundaries, often going all out with shower scenes, beach episodes, and...well, everything ecchi.\n' +
+        `Connor: And nowadays, you have entire series that arguably revolve around fan service, like "Highschool DxD" or "No Game No Life." Sometimes it feels like they're competing over who can feature the most colorful lingerie or outrageous scenarios.\n` +
+        'Joey: But do you guys think all this catering to the fans is detrimental to anime as a whole? Or is it just a fun, harmless way to engage with the audience?\n' +
+        `Garnt: I think, like most things, it depends on how it's done. Well-executed fan service can actually enhance the experience and make things more entertaining. There's even anime where the fan service is a major part of the humor or the story, like "Kill la Kill" or "Food Wars," and it works great.\n` +
+        "Connor: I agree, it's all about balance. Some shows can genuinely benefit from some levity or fun added through fan service. But others are just pandering and can really detract from the overall narrative, especially when it's gratuitous.\n" +
+        "Joey: Great points, guys. Well, that's our Trash Taste talk about fan service in anime. What do you think about it? Are you a fan of it or do you think it's getting out of hand? Share your thoughts in the comments below! And don't forget to like, share, and subscribe for more of our anime discussions!\n" +
+        "Garnt: Yeah, and leave any future topics you'd like us to discuss in the comments as well!\n" +
+        "Connor: We'll catch you all next time on Trash Taste!\n" +
+        'Joey, Garnt, Connor: Bye!\n' +
+        '[OUTRO MUSIC]'
+    },
+    finish_reason: 'stop',
+    index: 0
+  }
+]
