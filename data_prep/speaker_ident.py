@@ -12,6 +12,7 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 pipeline = Pipeline.from_pretrained('pyannote/speaker-diarization@2.1', use_auth_token=HF_TOKEN)
+pipeline.to('cuda')
 
 print('pipeline loaded')
 start_time = time.time()

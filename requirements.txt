@@ -1,11 +1,10 @@
+pyannote.audio
+python-dotenv
 git+https://github.com/huggingface/transformers@main
 git+https://github.com/huggingface/peft.git
 bitsandbytes
 accelerate
 loralib
 sentencepiece
-yt-dlp
-pyannote.audio
-python-dotenv
 pandas
 tqdm
