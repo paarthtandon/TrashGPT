@@ -166,3 +166,154 @@ response:
   }
 ]
 ```
+
+# ONE-SHOT CONVERSATION GENERATION
+prompt: 
+```
+"Generate a conversation about video games based off anime that could take place on the Trash Taste podcast. Include all three podcast hosts in the conversation. Use the following snippet of conversation as an example for tone and style.
+
+Example conversation: 
+<joey> if you're sitting in the front seat just </joey>
+<garnt> grab just stop playing Tic-Tac-Toe yeah </garnt>
+<garnt> your move </garnt>
+<garnt> yeah but no like uh like I guess it was </garnt>
+<garnt> like the nihongo josu is kind of like </garnt>
+<garnt> most of the time just like conversation </garnt>
+<garnt> starter do Japanese people find it as </garnt>
+<garnt> endearing when we just start speaking I </garnt>
+<connor> always do I always win eigo josu to </connor>
+<garnt> do them as well yeah oh really yeah yeah </garnt>
+<connor> oh and I've said I do now I've started </connor>
+<connor> doing it everywhere yeah do Japanese </connor>
+<garnt> people find it as endearing when we </garnt>
+<joey> speak broken ass Japanese be like ah I </joey>
+<joey> think so bearded ah oh dude Japanese </joey>
+<garnt> people </garnt>"
+```
+
+response: 
+```
+'<joey> So, have you guys played any video games based on anime recently? </joey>\n' +
+"<garnt> Yeah, I tried out that new Demon Slayer game. It's pretty fun, but I'm not really a big fan of arena fighters. </garnt>\n" +
+"<connor> I played My Hero One's Justice, and it was alright. But, overall, sometimes it feels like anime games tend to be a hit or miss. </connor>\n" +
+'<joey> I agree. There are some fantastic ones like Dragon Ball FighterZ, which I think really set the bar high as far as quality and gameplay go. </joey>\n' +
+'<garnt> True, but then you have games like the Attack on Titan one that had potential, but it ended up being a bit underwhelming considering the source material. </garnt>\n' +
+"<connor> You never know what you're going to get when it comes to video games based on anime, I suppose. </connor>\n" +
+"<joey> You know, I wonder why there haven't been many slice of life anime turned into video games. </joey>\n" +
+"<garnt> Well, I think it's because slice of life anime isn't as action-packed as something like Dragon Ball or Demon Slayer. Developers might struggle to create interesting gameplay. </garnt>\n" +
+'<connor> That being said, I think it would be nice to see a change of pace, like a K-On! rhythm game or something along those lines. </connor>\n' +
+'<joey> Yeah, it would be interesting to have a game that relies more on character interactions and development than just battles and fights. </joey>\n' +
+"<garnt> Exactly! And with the growing popularity of visual novels and adventure games, I think there's a market for that kind of experience in anime games. </garnt>\n" +
+'<connor> How about something like a Persona-like game with characters from various slice of life anime interacting in a high school setting? That could be fun. </connor>\n' +
+"<joey> That's an awesome idea! I'd love to see characters like Hachiman from Oregairu, and maybe a few characters from Toradora come together in a game like that. </joey>\n" +
+"<garnt> So, a massive anime crossover with a chill, character-driven story instead of high-octane action… I'm down for that! </garnt>\n" +
+'<connor> Me too! Maybe we should pitch that to some game developers. We could be onto something here, guys. </connor>\n' +
+"<joey> Alright, I guess that's our million-dollar idea: a new world of video games based on anime, focusing on character development and interactions. Let's make it happen! </joey>\n" +
+"<garnt> Absolutely! And hopefully, it'll inspire more developers to take risks and create unique anime games in the future. </garnt>\n" +
+"<connor> Agreed! It's about time we saw a change in the anime gaming scene. </connor>"
+```
+
+prompt: 
+```
+Generate a conversation about anime adaptations of manga that could take place on the Trash Taste podcast. Include all three podcast hosts in the conversation. Use the following snippet of conversation as an example for tone and style.
+
+Example conversation:
+<joey> for sure like you know when you get </joey>
+<joey> asked like the littlest thing for every </joey>
+<garnt> thing that kind of like adds up and adds </garnt>
+<connor> up and adds up yeah every single time </connor>
+<joey> yeah they asked me especially if your </joey>
+<joey> dad is asking what beer this is </joey>
+<joey> um like they had cover charge in one </joey>
+<connor> place because current charge is pretty </connor>
+<connor> common in Japan yeah yeah 500 to 1000 </connor>
+<connor> yen you get a snack or something and my </connor>
+<connor> dad was like did I did I get scammed and </connor>
+<joey> I was like no no it's </joey>
+<connor> it's normal but it uses on guard with </connor>
+<joey> everything yeah yeah like an ATM he's </joey>
+<joey> like is that ATM safe and I was like </joey>
+<joey> they're all safe every ATM's safe I mean </joey>
+<joey> I get where it's concerned because it's </joey>
+<joey> not all safe yeah I told him I'm like </joey>
+<garnt> everything's safe here don't worry like </garnt>
+<connor> anything it's all good it's all safe no </connor>
+<garnt> one's trying to scam you no one's trying </garnt>
+<garnt> to do anything Japan's probably well </garnt>
+<garnt> like one of the countries in Asia where </garnt>
+<garnt> you can feel most at home feeling safe </garnt>
+```
+
+response:
+```
+"<garnt> So, I've been thinking a lot about anime adaptations of manga lately. </garnt>\n" +
+'<joey> Oh? Like which ones? </joey>\n' +
+"<garnt> Well, you know how some anime adaptations just give off the sense that they're not living up to the manga's full potential? </garnt>\n" +
+"<connor> Oh yeah, definitely. It's such a letdown when that happens. </connor>\n" +
+"<joey> Totally, especially when it's a series you really love. </joey>\n" +
+'\n' +
+'<connor> I think one example that comes to mind for me is "Tokyo Ghoul". The manga was amazing, but the anime adaptation just didn't hit the mark. </connor>\n' +
+'<garnt> Yeah, I agree. I feel like they just tried to cram too much into too little time, which made it hard to follow along. </garnt>\n' +
+'<joey> Right? And don't even get me started on "Berserk". The 2016 adaptation was just...yikes. </joey>\n' +
+'\n' +
+'<connor> Oh god, yeah. That animation was horrific. </connor>\n' +
+"<garnt> You'd think for a series as iconic as Berserk, they'd put in more effort. </garnt>\n" +
+"<joey> It's such a shame because the manga is absolutely incredible. It deserved better. </joey>\n" +
+'\n' +
+'<connor> On the other hand, what do you guys think about anime adaptations that actually surpass the manga? </connor>\n' +
+'<garnt> That's a tough one. I mean, "Attack on Titan" pulled it off. The anime made some aspects even better than in the manga. </garnt>\n' +
+'<joey> Yeah, that's true. And I think "Demon Slayer" is another example. Ufotable's animation really brought the series to life. </joey>\n' +
+'\n' +
+"<connor> Oh, for sure. Whenever I see those stunning visuals, it's hard to go back to reading the manga without thinking about how much better the anime is. </connor>\n" +
+'<garnt> It just goes to show that when done right, an anime adaptation can not only do justice to the manga but also elevate it to new heights. </garnt>\n' +
+"<joey> Absolutely. It's just a matter of finding the right balance between staying faithful to the source material and letting the anime bring its own style and flare to the story. </joey>"
+```
+
+prompt:
+```
+Create a conversation about the importance of merchandise in an anime's popularity that could take place on the Trash Taste podcast. Use the following snippet of conversation as an example for tone and style.
+
+Example conversation:
+
+<connor> it's just like it's it's very fun taking </connor>
+<connor> them around but after like like multiple </connor>
+<connor> days of this I've been getting this same </connor>
+<connor> question I'm like I'm gonna lose </connor>
+<connor> my mind being asked these questions over </connor>
+<connor> and over again but it's been fun they </connor>
+<connor> love the bullet trains everyone seems to </connor>
+<connor> love bullet trains as well every foreign </connor>
+<joey> person I think people from outside Japan </joey>
+<joey> just like find that concept so insane </joey>
+<joey> yeah because it's like well like I think </joey>
+<joey> like China is the only other country </joey>
+<joey> that has trains that go that fast yeah I </joey>
+<connor> think I think no Europe has high speed </connor>
+<joey> rails does it yeah I don't think it's as </joey>
+<garnt> well connected nearly as well connected </garnt>
+<joey> yeah or run on time or because I think </joey>
+<connor> like a million people a day use the </connor>
+<garnt> shinkansen which is like insane amounts </garnt>
+```
+
+response:
+```
+"<connor> So, guys, can we talk about how anime merchandise plays a massive role in an anime's popularity? </connor>\n" +
+"<garnt> Oh, definitely! I've always thought that merch sales and the anime's popularity go hand in hand. </garnt>\n" +
+"<joey> Yeah, I mean, just look at the sheer amount of merch available for some of the more popular series. It's insane! </joey>\n" +
+"<connor> And it's not just limited to figures and keychains; we have clothing, accessories, even snacks branded with our favorite characters. </connor>\n" +
+"<garnt> I think that part of it comes from brand loyalty. Once you're invested in a series, you're more likely to buy its merch to show your support. </garnt>\n" +
+"<joey> Plus, there's something satisfying about having physical items that represent your love for a particular show or character. </joey>\n" +
+'<connor> Sometimes I wonder if certain anime are created just for the purpose of pumping out merchandise. </connor>\n' +
+"<garnt> Haha, wouldn't surprise me. I've heard of productions making creative choices based on their merchandising potential. </garnt>\n" +
+"<joey> I guess it's a business at the end of the day, and merch is a big part of what keeps the anime industry alive. </joey>\n" +
+`<connor> It's also interesting how well some shows sell despite their actual content. Like, take "Hyper Ultra Moe Moe Battle High School DX," for example. </connor>\n` +
+"<garnt> Oh, don't get me started on that one. I could barely get through a single episode, yet you see their merch everywhere. </garnt>\n" +
+"<joey> It's almost like the quality of the show doesn't even matter as long as the characters are marketable. </joey>\n" +
+'<connor> But on the other hand, you have shows with fantastic writing and animation that barely make a dent in merch sales. </connor>\n' +
+"<garnt> Yeah, it's a shame when that happens. It usually leads to series not getting renewed or just fading into obscurity. </garnt>\n" +
+"<joey> I wish more people would be open to supporting anime that isn't just centered around hype and fan service. </joey>\n" +
+"<connor> At the end of the day, though, I can't deny that merch plays a huge role in an anime's popularity and success. </connor>\n" +
+"<garnt> Definitely, and I don't see that changing anytime soon. If anything, I think we'll only see more creative ways to market our favorite shows through merchandise. </garnt>\n" +
+"<joey> Yeah, as much as we hate to admit it, we're all suckers for that limited edition figurine or collector's box set. It's just part of being a fan. </joey>"
+```
