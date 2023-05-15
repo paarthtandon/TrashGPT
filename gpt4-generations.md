@@ -1,6 +1,10 @@
-# BASELINE PROMPTS (No specialized information, just generate a conversation)
+# Table of Contents
+- [Baseline generations, provided nothing but the prompt](#baseline)
+- [One-shot conversation generations, provided](#one-shot-conversation-generation)
 
-## Prompt 1
+## <a name="baseline"></a>BASELINE PROMPTS (No specialized information, just generate a conversation)
+
+### Prompt 1
 prompt: Make a conversation that could happen on the Trash Taste podcast.
 ```
 response: [
@@ -30,7 +34,7 @@ response: [
 ]
 ```
 
-## Prompt 2
+### Prompt 2
 prompt: Generate a short conversation that could take place between the three members of Trash Taste on an episode of the podcast.
 response: 
 ```
@@ -58,7 +62,7 @@ response:
   }
 ]
 ```
-## Prompt 3
+### Prompt 3
 prompt: Generate a conversation that could occur on an episode of the Trash Taste podcast.
 response: 
 ```
@@ -94,7 +98,7 @@ response:
 ]
 ```
 
-## Prompt 4
+### Prompt 4
 prompt: Provide a conversation between the three hosts of Trash Taste that could occur on their podcast.
 response: 
 ```
@@ -134,7 +138,7 @@ response:
 ]
 ```
 
-## Prompt 5
+### Prompt 5
 prompt: Make a conversation between The Anime Man, C-DawgVA, and Gigguk that could happen on their podcast.
 response:
 ```
@@ -171,9 +175,9 @@ response:
 ]
 ```
 
-# ONE-SHOT CONVERSATION GENERATION
+## <a name="one-shot-gens"></a>ONE-SHOT CONVERSATION GENERATION
 
-## Prompt 1
+### Prompt 1
 prompt: 
 ```
 "Generate a conversation about video games based off anime that could take place on the Trash Taste podcast. Include all three podcast hosts in the conversation. Use the following snippet of conversation as an example for tone and style.
@@ -219,7 +223,7 @@ response:
 "<connor> Agreed! It's about time we saw a change in the anime gaming scene. </connor>"
 ```
 
-## Prompt 2
+### Prompt 2
 prompt: 
 ```
 Generate a conversation about anime adaptations of manga that could take place on the Trash Taste podcast. Include all three podcast hosts in the conversation. Use the following snippet of conversation as an example for tone and style.
@@ -276,7 +280,7 @@ response:
 "<joey> Absolutely. It's just a matter of finding the right balance between staying faithful to the source material and letting the anime bring its own style and flare to the story. </joey>"
 ```
 
-## Prompt 3
+### Prompt 3
 prompt:
 ```
 Create a conversation about the importance of merchandise in an anime's popularity that could take place on the Trash Taste podcast. Use the following snippet of conversation as an example for tone and style.
@@ -326,7 +330,7 @@ response:
 "<joey> Yeah, as much as we hate to admit it, we're all suckers for that limited edition figurine or collector's box set. It's just part of being a fan. </joey>"
 ```
 
-## Prompt 4
+### Prompt 4
 prompt: 
 ```
 Create a conversation about anime localization that might happen on the Trash Taste podcast. Use the following example to mimic the tone and style.
@@ -382,10 +386,10 @@ response:
 "<garnt> Absolutely, it's always interesting to look back and see how much it's changed over the years. Hopefully, we'll continue to see improvements in anime localization. </garnt>"
 ```
 
-## Prompt 5
+### Prompt 5
 prompt: 
 ```
-Create a conversation about the differences between Japanese and American that could take place on the Trash Taste podcast. Reference the provided example conversation for style and manners of speech.
+Create a conversation about the differences between Japanese and American life that could take place on the Trash Taste podcast. Reference the provided example conversation for style and manners of speech.
 
 Example conversation:
 <joey> not do not open the doors don't close </joey>
@@ -445,4 +449,235 @@ response:
 "<joey> Overall, there are so many differences between the two cultures, and I think it's interesting to observe and learn from both. </joey>\n" +
 "<connor> Definitely. And while there are pros and cons to both, it's always nice to be able to experience both and appreciate the differences. </connor>\n" +
 '<garnt> Agreed. It just goes to show that there's no one "right" way to live or do things – different cultures have different values and customs that make them unique. </garnt>'
+```
+
+## Zero-shot conversation extensions
+### Prompt 1
+prompt: 
+```
+"Provided below is a snippet of conversation from the Trash Taste podcast. Extend the following conversation in a believable manner."
+
+Conversation Snippet: 
+<connor> my God it looks like the shittiest Cafe </connor>
+<connor> in all of Japan it's like it's like yeah </connor>
+<joey> it has an outside Terrace and it's </joey>
+<connor> let me show you a picture okay it's like </connor>
+<joey> unfair to even call this a Terrace do </joey>
+<joey> they not just think to like walk into </joey>
+<connor> like a Starbucks I think I think they </connor>
+<joey> didn't want to go to Starbucks and also </joey>
+<joey> I think they were also like look at this </joey>
+```
+
+response:
+```
+"<connor> unique Cafe. It's like so quirky and different! </connor>\n" +
+"<joey> Yeah, but sometimes there's a reason why certain establishments are consistent, like Starbucks. </joey>\n" +
+'<connor> True, but I guess they wanted to try something new and exciting. </connor>\n' +
+"<joey> I get that, but there's a fine line between new and exciting and just plain awful. </joey>\n" +
+'<connor> Fair point. So, have you actually been to this cafe? </connor>\n' +
+`<joey> Yeah, I went once out of curiosity. You know, the whole "it can't be as bad as it looks" thing. </joey>\n` +
+'<connor> And how was it? </connor>\n' +
+'<joey> Honestly, it was worse than I thought. The coffee was terrible, the service was terrible, and the ambiance was underwhelming. </joey>\n' +
+'<connor> Yikes, then it truly does earn the title of "shittiest cafe." </connor>\n' +
+"<joey> Totally. I'd be thoroughly impressed if someone managed to find a cafe that was worse than this one. </joey>\n" +
+"<connor> Well, now I'm curious. Maybe we could make it a challenge! </connor>\n" +
+"<joey> Haha, sure, why not? The Trash Taste Cafe Crawl! We'll document our adventure as we search for the worst cafes in Japan! </joey>"
+```
+
+### Prompt 2
+prompt:
+ ```
+"Below is a part of a conversation happening on the Trash Taste podcast. Continue the conversation that's happening in the provided example. Use the conversation snippet as a reference for format and style.
+
+Conversation Snippet:
+<connor> it's just like it's it's very fun taking </connor>
+<connor> them around but after like like multiple </connor>
+<connor> days of this I've been getting this same </connor>
+<connor> question I'm like I'm gonna lose </connor>
+<connor> my mind being asked these questions over </connor>
+<connor> and over again but it's been fun they </connor>
+<connor> love the bullet trains everyone seems to </connor>
+<connor> love bullet trains as well every foreign </connor>
+<joey> person I think people from outside Japan </joey>
+<joey> just like find that concept so insane </joey>
+<joey> yeah because it's like well like I think </joey>
+```
+
+response:
+```
+<joey> for us, especially like growing up in </joey>\n' +
+"<joey> countries where we don't have anything </joey>\n" +
+'<joey> like that, it just seems almost futuristic </joey>\n' +
+'<joey> in a way. </joey>\n' +
+'<connor> Yeah, absolutely. I remember the </connor>\n' +
+'<connor> first time I got on a bullet train, I was just </connor>\n' +
+'<connor> blown away by the speed and smoothness </connor>\n' +
+'<connor> of the ride, compared to like the regular </connor>\n' +
+'<connor> trains I was used to back home. </connor>\n' +
+"<garnt> It's so convenient, too. It makes </garnt>\n" +
+'<garnt> traveling between cities such a breeze, </garnt>\n' +
+'<garnt> and I think that really amazes foreigners </garnt>\n' +
+"<garnt> who aren't used to that kind of </garnt>\n" +
+'<garnt> transportation system. </garnt>\n' +
+'<joey> Definitely. And I think another thing </joey>\n' +
+'<joey> that really fascinates foreigners is the </joey>\n' +
+'<joey> punctuality of the trains. Like, they are </joey>\n' +
+'<joey> almost never late, which is pretty much </joey>\n' +
+'<joey> unheard of in a lot of countries. </joey>\n' +
+"<connor> Yeah, that's so true. I don't think I've </connor>\n" +
+'<connor> ever been on a late train here, and if it </connor>\n' +
+"<connor> ever is late, it's like by maybe a minute </connor>\n" +
+'<connor> or two, and they apologize profusely for </connor>\n' +
+'<connor> it. It really shows how efficient and organized </connor>\n' +
+'<connor> their system is. </connor>\n' +
+"<garnt> It's definitely one of the things that </garnt>\n" +
+'<garnt> makes living and traveling in Japan so </garnt>\n' +
+'<garnt> enjoyable. The public transportation is just </garnt>\n' +
+'<garnt> so reliable and easy to use. </garnt>'
+```
+
+### Prompt 3
+prompt:
+```
+The following fragment of conversation comes from the Trash Taste podcast. Continue the conversation the three hosts were having in that conversation.
+
+Conversation:
+<joey> take for granted in terms of how you </joey>
+<joey> know like the way the country functions </joey>
+<joey> for sure like you know when you get </joey>
+<joey> asked like the littlest thing for every </joey>
+<garnt> thing that kind of like adds up and adds </garnt>
+<connor> up and adds up yeah every single time </connor>
+<joey> yeah they asked me especially if your </joey>
+<joey> dad is asking what beer this is </joey>
+<joey> um like they had cover charge in one </joey>
+<connor> place because current charge is pretty </connor>
+<connor> common in Japan yeah yeah 500 to 1000 </connor>
+<connor> yen you get a snack or something and my </connor>
+<connor> dad was like did I did I get scammed and </connor>
+<joey> I was like no no it's </joey>
+<connor> it's normal but it uses on guard with </connor>
+<joey> everything yeah yeah like an ATM he's </joey>
+<joey> like is that ATM safe and I was like </joey>
+```
+
+response:
+```
+"<joey> Dude, we're in Japan. It's one of the safest countries in the world. Trust me, it's fine. </joey>\n" +
+"<garnt> It's so fascinating how different the experience can be for visitors compared to when you're living here, right? </garnt>\n" +
+"<connor> Absolutely. You don't realize how many things you've just adapted to until someone asks you about it. </connor>\n" +
+"<joey> Yeah, like when I first moved here, I had no idea how to handle sorting my trash properly, but now it's just second nature. </joey>\n" +
+"<garnt> And let's not forget how overwhelming the train system can be for a first-timer. </garnt>\n" +
+"<connor> Oh man, I remember getting lost so many times in the beginning. It's a rite of passage for anyone new to Japan. </connor>\n" +
+"<joey> Haha, so true. But once you get the hang of it, it's actually a really efficient and convenient way to travel. </joey>\n" +
+"<garnt> Agreed. Anyway, back to what we were saying about our parents visiting, it's definitely an eye-opening experience for them to see how different Japan is from what they're used to back home. </garnt>\n" +
+"<connor> It's really fun to be their tour guide, though. You know, showing them the sights, the food, the culture–it makes you appreciate Japan even more. </connor>\n" +
+'<joey> Yeah, and I think it helps build a new understanding and closeness with our family as well. </joey>'
+```
+
+### Prompt 4
+prompt:
+```
+Generate a continuation of the discussion that is happening in the conversation chunk attached below. Phrase your generation to be accurate to the style, tone, and content of the Trash Taste podcast.
+
+Conversation chunk:
+<joey> if you're sitting in the front seat just </joey>
+<garnt> grab just stop playing Tic-Tac-Toe yeah </garnt>
+<garnt> your move </garnt>
+<garnt> yeah but no like uh like I guess it was </garnt>
+<garnt> like the nihongo josu is kind of like </garnt>
+<garnt> most of the time just like conversation </garnt>
+<garnt> starter do Japanese people find it as </garnt>
+<garnt> endearing when we just start speaking I </garnt>
+<connor> always do I always win eigo josu to </connor>
+<garnt> do them as well yeah oh really yeah yeah </garnt>
+<connor> oh and I've said I do now I've started </connor>
+<connor> doing it everywhere yeah do Japanese </connor>
+<garnt> people find it as endearing when we </garnt>`
+```
+
+response:
+```
+'<garnt> just start speaking Japanese to them? </garnt>\n' +
+'<connor> I think it depends on the situation and </connor>\n' +
+'<connor> the person, but overall I think they appreciate </connor>\n' +
+'<connor> the effort. </connor>\n' +
+'<joey> Yeah, in my experience, they usually seem  </joey>\n' +
+"<joey> happy that we're trying to communicate in their </joey>\n" +
+'<joey> language. </joey>\n' +
+"<garnt> But do you ever feel like there's a bit of </garnt>\n" +
+'<garnt> an expectation for us to know Japanese and </garnt>\n' +
+'<garnt> to adapt to their culture, just because we live here? </garnt>\n' +
+'<connor> Oh definitely, I feel like that pressure </connor>\n' +
+"<connor> sometimes, but it's also motivation to improve </connor>\n" +
+'<connor> and learn more. </connor>\n' +
+"<joey> Yeah, I agree. It's like a double-edged sword - </joey>\n" +
+'<joey> on one hand, the pressure can be overwhelming, </joey>\n' +
+"<joey> but on the other hand, it's what pushes us to do </joey>\n" +
+'<joey> better and fully immerse ourselves in the culture. </joey>\n' +
+"<garnt> And in the end, it's important to remember that </garnt>\n" +
+'<garnt> most people are understanding if we make mistakes.</garnt>\n' +
+"<garnt> They know it's not our first language, and they're </garnt>\n" +
+'<garnt> usually willing to help and teach us along the way. </garnt>\n' +
+"<connor> Yeah, that's true. It's a journey, and we're all </connor>\n" +
+'<connor> just doing our best to navigate it. </connor>'
+```
+
+### Prompt 5
+prompt: 
+```
+Continue the following conversation. This conversation was taken from the Trash Taste podcast. Be sure to match tone and style.
+
+Conversation:
+<joey> yeah where you open the door and you </joey>
+<joey> close the door to the taxi yeah but like </joey>
+<joey> I was like do not touch the doors I know </joey>
+<connor> you want to don't do it they will open </connor>
+<connor> it for you so they they're kind of </connor>
+<connor> getting used to it and stuff I don't get </connor>
+<joey> it it's it's tough It's hard traveling </joey>
+<joey> outside of Japan and unlearning that the </joey>
+<joey> amount of times I've traveled </joey>
+<joey> out and I've just for one second walk </joey>
+<joey> straight out of an Uber and just not </joey>
+<garnt> looked back yeah it's just it it happens </garnt>
+<garnt> every single time I like I've had the </garnt>
+<joey> opposite where like I walk up to the </joey>
+<joey> Uber I'm just standing in front of it </joey>
+<joey> just waiting for it to open I'm just </joey>
+```
+
+response:
+```
+'<connor> like are you gonna open it or </connor>\n' +
+'<connor> am I gonna have to do it myself? </connor>\n' +
+'<garnt> Yeah and then the driver is just </garnt>\n' +
+'<garnt> staring at you like "Well, are you </garnt>\n' +
+`<garnt> going to get in?" And I'm like "Oh, </garnt>\n` +
+`<garnt> right. It's not Japan. My bad." </garnt>\n` +
+"<joey> Exactly! It's so ingrained in us </joey>\n" +
+"<joey> now that sometimes we forget it's </joey>\n" +
+'<joey> not like that everywhere else. </joey>\n' +
+'<connor> I do appreciate the Japanese </connor>\n' +
+'<connor> politeness and service standards, </connor>\n' +
+"<connor> but it's important to adapt to the </connor>\n" +
+'<connor> local customs when traveling, right? </connor>\n' +
+'<garnt> Absolutely, totally agree with that. </garnt>\n' +
+"<garnt> It's all about being a respectful </garnt>\n" +
+'<garnt> traveler and understanding the culture </garnt>\n' +
+"<garnt> of the place you're visiting. </garnt>\n" +
+"<joey> Yeah, I couldn't agree more. </joey>\n" +
+"<joey> It's just tough when you get used </joey>\n" +
+'<joey> to certain things, and then you have </joey>\n' +
+'<joey> to unlearn them again when going </joey>\n' +
+'<joey> to another country. </joey>\n' +
+"<connor> But hey, at least we're aware of it. </connor>\n" +
+"<connor> That's the first step to avoiding </connor>\n" +
+'<connor> any cultural faux pas when traveling! </connor>\n' +
+"<garnt> True, let's just hope we remember </garnt>\n" +
+'<garnt> it next time we are traveling </garnt>\n' +
+'<garnt> abroad, right? </garnt>\n' +
+'<joey> Definitely! Just gotta keep </joey>\n' +
+'<joey> adapting and learning, guys. </joey>'
 ```
