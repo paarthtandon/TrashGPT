@@ -7,21 +7,23 @@ import time
 device = torch.device("cuda")
 
 tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom-560m")
-model = BloomForCausalLM.from_pretrained("bigscience/bloom-560m", device_map="auto", torch_dtype=torch.float16).cuda()
+model = BloomForCausalLM.from_pretrained("bigscience/bloom-560m").cuda()
 model.load_state_dict(torch.load('models/bloom_560_final/pytorch_model.bin'))
 
 # encode context the generation is conditioned on
-input_ids = tokenizer.encode('<title> the waifu wars of 2022 </title>', return_tensors='pt').to(device)
+text = "<title> the differences between japanese and american people </title>\n"
+input_ids = tokenizer.encode(text, return_tensors='pt').to(device)
 
 print('Starting generation')
 start = time.time()
 
 # activate sampling and deactivate top_k by setting top_k sampling to 0
 sample_output = model.generate(
-    input_ids, 
+    input_ids=input_ids, 
     do_sample=True, 
     max_length=2048,
-    temperature=0.75
+    temperature=0.7,
+    repetition_penalty=1.0
 )
 
 print(tokenizer.decode(sample_output[0], skip_special_tokens=True))

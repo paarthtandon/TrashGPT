@@ -17,7 +17,7 @@ for param in model.parameters():
     # cast the small parameters (e.g. layernorm) to fp32 for stability
     param.data = param.data.to(torch.float32)
 
-model.gradient_checkpointing_enable()  # reduce number of stored activations
+# model.gradient_checkpointing_enable()  # reduce number of stored activations
 model.enable_input_require_grads()
 
 class CastOutputToFloat(torch.nn.Sequential):
@@ -35,10 +35,12 @@ config = LoraConfig(
 )
 
 model = get_peft_model(model, config)
-model.load_state_dict(torch.load('models/llama_final/pytorch_model.bin'))
+model.load_state_dict(torch.load('models/llama_final/pytorch_model.bin'), strict=False)
+model.to(device)
 
 # encode context the generation is conditioned on
-input_ids = tokenizer.encode('<title>', return_tensors='pt').to(device)
+text = "<title> the differences between japanese and american people </title>\n"
+input_ids = tokenizer.encode(text, return_tensors='pt').to(device)
 
 print('Starting generation')
 start = time.time()
@@ -50,7 +52,7 @@ with torch.cuda.amp.autocast():
         do_sample=True, 
         max_length=2048,
         temperature=0.7,
-        repetition_penalty=1.1
+        repetition_penalty=1.005
     )
 
 print(tokenizer.decode(sample_output[0], skip_special_tokens=True))
