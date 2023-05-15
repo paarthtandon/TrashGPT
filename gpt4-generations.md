@@ -1,4 +1,6 @@
 # BASELINE PROMPTS (No specialized information, just generate a conversation)
+
+## Prompt 1
 prompt: Make a conversation that could happen on the Trash Taste podcast.
 ```
 response: [
@@ -28,7 +30,7 @@ response: [
 ]
 ```
 
-
+## Prompt 2
 prompt: Generate a short conversation that could take place between the three members of Trash Taste on an episode of the podcast.
 response: 
 ```
@@ -56,7 +58,7 @@ response:
   }
 ]
 ```
-
+## Prompt 3
 prompt: Generate a conversation that could occur on an episode of the Trash Taste podcast.
 response: 
 ```
@@ -92,6 +94,7 @@ response:
 ]
 ```
 
+## Prompt 4
 prompt: Provide a conversation between the three hosts of Trash Taste that could occur on their podcast.
 response: 
 ```
@@ -131,6 +134,7 @@ response:
 ]
 ```
 
+## Prompt 5
 prompt: Make a conversation between The Anime Man, C-DawgVA, and Gigguk that could happen on their podcast.
 response:
 ```
@@ -168,6 +172,8 @@ response:
 ```
 
 # ONE-SHOT CONVERSATION GENERATION
+
+## Prompt 1
 prompt: 
 ```
 "Generate a conversation about video games based off anime that could take place on the Trash Taste podcast. Include all three podcast hosts in the conversation. Use the following snippet of conversation as an example for tone and style.
@@ -213,6 +219,7 @@ response:
 "<connor> Agreed! It's about time we saw a change in the anime gaming scene. </connor>"
 ```
 
+## Prompt 2
 prompt: 
 ```
 Generate a conversation about anime adaptations of manga that could take place on the Trash Taste podcast. Include all three podcast hosts in the conversation. Use the following snippet of conversation as an example for tone and style.
@@ -269,6 +276,7 @@ response:
 "<joey> Absolutely. It's just a matter of finding the right balance between staying faithful to the source material and letting the anime bring its own style and flare to the story. </joey>"
 ```
 
+## Prompt 3
 prompt:
 ```
 Create a conversation about the importance of merchandise in an anime's popularity that could take place on the Trash Taste podcast. Use the following snippet of conversation as an example for tone and style.
@@ -316,4 +324,125 @@ response:
 "<connor> At the end of the day, though, I can't deny that merch plays a huge role in an anime's popularity and success. </connor>\n" +
 "<garnt> Definitely, and I don't see that changing anytime soon. If anything, I think we'll only see more creative ways to market our favorite shows through merchandise. </garnt>\n" +
 "<joey> Yeah, as much as we hate to admit it, we're all suckers for that limited edition figurine or collector's box set. It's just part of being a fan. </joey>"
+```
+
+## Prompt 4
+prompt: 
+```
+Create a conversation about anime localization that might happen on the Trash Taste podcast. Use the following example to mimic the tone and style.
+
+Example conversation:
+<connor> my God it looks like the shittiest Cafe </connor>
+<connor> in all of Japan it's like it's like yeah </connor>
+<joey> it has an outside Terrace and it's </joey>
+<connor> let me show you a picture okay it's like </connor>
+<joey> unfair to even call this a Terrace do </joey>
+<joey> they not just think to like walk into </joey>
+<connor> like a Starbucks I think I think they </connor>
+<joey> didn't want to go to Starbucks and also </joey>
+<joey> I think they were also like look at this </joey>
+<joey> oh </joey>
+<joey> that doesn't even look like a cafe and </joey>
+<joey> this is something that I've learned and </joey>
+<joey> I know this because I had the same thing </joey>
+<joey> myself I said like it is super </joey>
+<joey> intimidating in Japan for people who've </joey>
+<joey> never gone to Japan or Asia in general </joey>
+<joey> to to to imagine having to go into a </joey>
+<joey> building without being able to see it </joey>
+<joey> immediately what's inside yes yeah so I </joey>
+<joey> think for them my parents it was like </joey>
+<joey> okay well Terrace equals I can kind of </joey>
+<joey> see what's going on and then there's </joey>
+<joey> also hundreds of miscommunications they </joey>
+<joey> keep telling me about where they're like </joey>
+<joey> my mom is obsessed with cider as right a </joey>
+<joey> British woman yeah wants to drink siding </joey>
+<joey> alcohol excited yeah which just doesn't </joey>
+<joey> exist in Japan no no and in America it's </joey>
+<connor> called hard cider but here it's like </connor>
+<connor> what do they call it Cedar but then </connor>
+<joey> there's also normal cider which is </joey>
+<connor> yeah you can imagine </connor>
+```
+
+response: 
+```
+<garnt> Speaking of miscommunications, have you ever noticed how crazy some of the anime localizations are? </garnt>\n' +
+"<joey> Oh, absolutely! Sometimes they change the original meaning so drastically that it's surprising they even call it localization. </joey>\n" +
+'<garnt> Yeah, I remember back in the day when they had to change all the Japanese names to American ones in some shows, like Satoshi becoming Ash Ketchum in Pokémon. </garnt>\n' +
+'<connor> That always annoyed me as a kid! Just let me have the original names already! </connor>\n' +
+'<joey> And don't even get me started on the weird censoring they sometimes do, like turning alcohol into "grape juice" or "soda pop." </joey>\n' +
+"<garnt> Oh, God, yeah! They even went as far as completely altering the story and dialogue in some shows just to avoid any potential controversy. Remember 4Kids' One Piece? </garnt>\n" +
+'<connor> Oh man, what a train wreck that was! They completely butchered the show! </connor>\n' +
+'<joey> Yeah, the infamous "jelly filled doughnut" instead of rice balls in Pokémon comes to mind as well. </joey>\n' +
+"<garnt> I honestly think that's one of the reasons why fansubs became so popular. People just wanted to watch anime without all the unnecessary edits and alterations. </garnt>\n" +
+'<connor> Definitely, fansubs helped me appreciate anime in its original form, and nowadays the official subtitles have improved a lot, but there are still some weird choices from time to time. </connor>\n' +
+"<joey> Yeah, it's still not perfect, but at least it's come a long way from those early days of over-censoring and altering the original meaning. </joey>\n" +
+"<garnt> Absolutely, it's always interesting to look back and see how much it's changed over the years. Hopefully, we'll continue to see improvements in anime localization. </garnt>"
+```
+
+## Prompt 5
+prompt: 
+```
+Create a conversation about the differences between Japanese and American that could take place on the Trash Taste podcast. Reference the provided example conversation for style and manners of speech.
+
+Example conversation:
+<joey> not do not open the doors don't close </joey>
+<joey> the doors don't open the door oh it does </joey>
+<joey> just don't and this is the hardest thing </joey>
+<joey> to tell people because I feel like you </joey>
+<joey> can tell them and they just don't they </joey>
+<joey> don't do it because it's like it's it's </joey>
+<joey> something in your brain it's hardwired </joey>
+<joey> yeah where you open the door and you </joey>
+<joey> close the door to the taxi yeah but like </joey>
+<joey> I was like do not touch the doors I know </joey>
+<connor> you want to don't do it they will open </connor>
+<connor> it for you so they they're kind of </connor>
+<connor> getting used to it and stuff I don't get </connor>
+<joey> it it's it's tough It's hard traveling </joey>
+<joey> outside of Japan and unlearning that the </joey>
+<joey> amount of  times I've traveled </joey>
+<joey> out and I've just for one second walk </joey>
+<joey> straight out of an Uber and just not </joey>
+<garnt> looked back yeah it's just it it happens </garnt>
+<garnt> every single time I like I've had the </garnt>
+<joey> opposite where like I walk up to the </joey>
+<joey> Uber I'm just standing in front of it </joey>
+<joey> just waiting for it to open I'm just </joey>
+<joey> like oh yeah yeah right yeah yeah yeah </joey>
+<connor> yeah </connor>
+<garnt> um so they're getting used to it what uh </garnt>
+<joey> what are you planning for to do with </joey>
+<connor> them for like the rest of your time for </connor>
+<joey> a few more days someone just came to </joey>
+<joey> some nice restaurants </joey>
+<garnt> golden guy uh I might I'm I'm do I I I </garnt>
+<garnt> gotta stop drinking </garnt>
+<garnt> my parents they like drinking so it's </garnt>
+<garnt> like I'm like I'm like dying but no </garnt>
+<garnt> drinking please </garnt>
+```
+
+response:
+```
+"<joey> So, let's talk about the differences between Japanese and American, you know, culture or lifestyle. </joey>\n" +
+"<connor> Oh man, where do we even start? I mean, there's so much to talk about. </connor>\n" +
+"<garnt> Yeah, it's quite a broad topic, but I guess we could start with the work ethic? </garnt>\n" +
+'<joey> Right, so in Japan, the work culture is very intense. People work very long hours and often go out drinking with their coworkers afterward. </joey>\n' +
+"<connor> Yeah, it's like there's this expectation that you need to devote your entire life to your job. Whereas in America, it's a bit more relaxed, people value a work-life balance more. </connor>\n" +
+'<garnt> Absolutely. You hear about people in Japan getting "karoshi" – death from overwork. That's just not something you hear about in America. </garnt>\n' +
+'<joey> Yeah, and it's so ingrained in Japanese culture. When you meet someone new, one of the first questions they'll ask is, "What's your job?" It's like your identity is tied to what you do for a living. </joey>\n' +
+"<connor> That's true. Another big difference is customer service. In Japan, it's so polite and accommodating, like next-level customer service. </connor>\n" +
+"<garnt> Oh definitely. In America, it's more relaxed and casual, you know? You don't have people bowing and apologizing for the smallest inconvenience. </garnt>\n" +
+"<joey> And don't get me started on the public transportation here. It's so clean, punctual, and just so efficient in Japan. </joey>\n" +
+"<connor> It's a stark contrast to America, where you can't really rely on public transportation being on time or clean in most cities. </connor>\n" +
+'<garnt> Yeah, you pretty much need a car to get anywhere in America, while in Japan you can easily rely on trains and buses. </garnt>\n' +
+"<joey> Food is another aspect where there's a big difference. Japanese food is generally healthier and uses only a few ingredients, but with lots of flavors. </joey>\n" +
+'<connor> Yeah, and portion sizes are so different too. American portions are often huge while Japanese portions are a lot more reasonable. </connor>\n' +
+"<garnt> And let's not forget the polite manners that are so important in Japanese society. Things like bowing and the proper way to hand money or hand over a business card. </garnt>\n" +
+"<joey> Overall, there are so many differences between the two cultures, and I think it's interesting to observe and learn from both. </joey>\n" +
+"<connor> Definitely. And while there are pros and cons to both, it's always nice to be able to experience both and appreciate the differences. </connor>\n" +
+'<garnt> Agreed. It just goes to show that there's no one "right" way to live or do things – different cultures have different values and customs that make them unique. </garnt>'
 ```
