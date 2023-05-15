@@ -1,6 +1,7 @@
 # Table of Contents
 - [Baseline generations, provided nothing but the prompt](#baseline)
-- [One-shot conversation generations, provided](#one-shot-conversation-generation)
+- [One-shot conversation generations, provided a conversation](#one-shot-conversation-generation)
+- [Zero-shot conversation extension, given ground truth](#conv-ext)
 
 ## <a name="baseline"></a>BASELINE PROMPTS (No specialized information, just generate a conversation)
 
@@ -451,7 +452,7 @@ response:
 '<garnt> Agreed. It just goes to show that there's no one "right" way to live or do things – different cultures have different values and customs that make them unique. </garnt>'
 ```
 
-## Zero-shot conversation extensions
+## <a name="conv-ext"></a>Zero-shot conversation extensions
 ### Prompt 1
 prompt: 
 ```
