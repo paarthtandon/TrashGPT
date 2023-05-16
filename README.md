@@ -18,3 +18,4 @@
 - [Proposal](https://www.overleaf.com/project/63ebb492e3b98236eca9357b) (March 8th)
 - [Final Report](https://www.overleaf.com/6268427319fsgdzvcrfsyq) (May 17th)
 - [Playlist](https://youtube.com/playlist?list=PLUHmmIt9sU6i4JlDABqLeWybD_ZrJf9LB)
+- [Evals](https://docs.google.com/spreadsheets/d/1jtsw4g0nGK2sbywgND0AkrXzY3MM4u4L0yGolVhIMPU/edit?usp=sharing)
