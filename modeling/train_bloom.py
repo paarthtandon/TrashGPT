@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, BloomForCausalLM, TrainingArguments, Trainer
 from custom_datasets import BloomTranscript
 
-dataset_fn = '../annotated_w_names/_dataset.txt'
+dataset_fn = '../data_prep/_dataset.txt'
 model_dir = 'models/bloom_560'
 
 tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom-560m")

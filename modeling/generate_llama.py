@@ -12,12 +12,10 @@ model = LlamaForCausalLM.from_pretrained("decapoda-research/llama-7b-hf", device
 model.resize_token_embeddings(len(tokenizer))
 
 for param in model.parameters():
-  param.requires_grad = False  # freeze the model - train adapters later
+  param.requires_grad = False
   if param.ndim == 1:
-    # cast the small parameters (e.g. layernorm) to fp32 for stability
     param.data = param.data.to(torch.float32)
 
-# model.gradient_checkpointing_enable()  # reduce number of stored activations
 model.enable_input_require_grads()
 
 class CastOutputToFloat(torch.nn.Sequential):
@@ -38,7 +36,6 @@ model = get_peft_model(model, config)
 model.load_state_dict(torch.load('models/llama_final/pytorch_model.bin'), strict=False)
 model.to(device)
 
-# encode context the generation is conditioned on
 text = "<title> the differences between japanese and american people </title>\n"
 input_ids = tokenizer.encode(text, return_tensors='pt').to(device)
 
@@ -46,7 +43,6 @@ print('Starting generation')
 start = time.time()
 
 with torch.cuda.amp.autocast():
-    # activate sampling and deactivate top_k by setting top_k sampling to 0
     sample_output = model.generate(
         input_ids=input_ids, 
         do_sample=True, 

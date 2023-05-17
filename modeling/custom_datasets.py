@@ -1,6 +1,5 @@
 import torch
 from torch.utils.data import Dataset
-from transformers import GPT2Tokenizer
 
 class GPT2Transcript(Dataset):
     def __init__(self, text, tokenizer, max_length=1024):
