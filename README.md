@@ -19,3 +19,6 @@
 - [Final Report](https://www.overleaf.com/6268427319fsgdzvcrfsyq) (May 17th)
 - [Playlist](https://youtube.com/playlist?list=PLUHmmIt9sU6i4JlDABqLeWybD_ZrJf9LB)
 - [Evals](https://docs.google.com/spreadsheets/d/1jtsw4g0nGK2sbywgND0AkrXzY3MM4u4L0yGolVhIMPU/edit?usp=sharing)
+- [LLaMA 7B Performance](https://youtu.be/rR67-ePpWF4)
+- [Bloom 560M Performance](https://youtu.be/DJM6BLNaWhI)
+- [GPT2-Medium Performance](https://youtu.be/DnMJ3biSkKQ)
