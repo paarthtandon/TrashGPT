@@ -2,14 +2,11 @@ from pydub import AudioSegment
 import pandas as pd
 import os
 import pathlib
-import random as rand
-import pyaudio
-import wave
 
-audio_dir = '../data/'
-diar_dir = '../speech_diarization/'
-trans_dir = '../annotated/'
-write_dir = '../annotated_w_names/'
+audio_dir = '../raw_data/'
+diar_dir = 'speech_diarization/'
+trans_dir = 'annotated/'
+write_dir = 'annotated_w_names/'
 
 
 def reload(fileName):

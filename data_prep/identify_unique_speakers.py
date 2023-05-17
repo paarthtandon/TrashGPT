@@ -5,8 +5,8 @@ import time
 
 load_dotenv()
 HF_TOKEN = os.getenv('HF')
-data_dir = '../data/'
-output_dir = '../data/'
+data_dir = '../raw_data/'
+output_dir = 'speech_diarization/'
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
