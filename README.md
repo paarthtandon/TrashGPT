@@ -29,6 +29,7 @@ There are many different subroutines in this repository, and I would recommend o
 
 ## Results
 
+- Sample text generations are in `test/`
 - [Evaluation](https://docs.google.com/spreadsheets/d/1jtsw4g0nGK2sbywgND0AkrXzY3MM4u4L0yGolVhIMPU/edit?usp=sharing)
 - [LLaMA 7B Clip](https://youtu.be/rR67-ePpWF4)
 - [Bloom 560M Clip](https://youtu.be/DJM6BLNaWhI)

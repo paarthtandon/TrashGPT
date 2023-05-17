@@ -13,3 +13,10 @@ We used [tortoise-tts](https://github.com/neonbjb/tortoise-tts), a transformer b
 ## Parser
 
 To ensure that each text segment is not too long, the parser breaks up each segment into a maximum of 200 characters. In our testing, this was the longest they could be and still be small enough to run locally on a RTX 3060 12GB.
+
+
+## Results
+
+- [LLaMA 7B Clip](https://youtu.be/rR67-ePpWF4)
+- [Bloom 560M Clip](https://youtu.be/DJM6BLNaWhI)
+- [GPT2-Medium Clip](https://youtu.be/DnMJ3biSkKQ)

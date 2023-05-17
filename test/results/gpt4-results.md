@@ -1,4 +1,6 @@
-# Table of Contents
+# GPT-4 Results
+
+## Table of Contents
 - [Baseline generations, provided nothing but the prompt](#baseline)
 - [One-shot conversation generations, provided a conversation](#one-shot-conversation-generation)
 - [Zero-shot conversation extension, given ground truth](#conv-ext)

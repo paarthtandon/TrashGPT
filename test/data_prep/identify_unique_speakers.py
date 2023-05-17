@@ -5,8 +5,8 @@ import time
 
 load_dotenv()
 HF_TOKEN = os.getenv('HF')
-data_dir = '../data/'
-output_dir = '../data/'
+data_dir = '../test_raw_data/'
+output_dir = 'speech_diarization/'
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
@@ -30,8 +30,7 @@ for filename in data_files:
         # apply the pipeline to an audio file
         diarization = pipeline(
             input_file_path,
-            min_speakers = 3,
-            max_speakers=5
+            min_speakers = 3
         )
 
         # dump the diarization output to disk using RTTM format

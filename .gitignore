@@ -131,7 +131,7 @@ dmypy.json
 # Data
 
 data/
+test_raw_data/
 models/
-Real-Time-Voice-Cloning/
 
 .vscode/

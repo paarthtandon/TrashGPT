@@ -1,13 +1,10 @@
 import subprocess
 import os
 
-# Set directory containing files to convert
-dir_path = '../data/'
+dir_path = '../test_raw_data/'
 
-# Iterate through files in directory
 for file_name in os.listdir(dir_path):
     if file_name.endswith('.m4a'):
-        # Get full file path
         file_path = os.path.join(dir_path, file_name)
         
         # Set output file path and name

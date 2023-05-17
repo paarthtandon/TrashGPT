@@ -5,9 +5,9 @@ import pandas as pd
 import numpy as np
 import tqdm
 
-rttm_dir = '../speech_diarization/'
-transcript_dir = '../transcripts/'
-annotated_dir = '../annotated/'
+rttm_dir = 'speech_diarization/'
+transcript_dir = 'transcripts/'
+annotated_dir = 'annotated/'
 
 rttm_header = ['Type', 'File ID', 'Channel ID', 'start_ms', 'duration_ms', 'Orthography Field', 'Speaker Type', 'Speaker Name', 'Confidence Score', 'Signal Lookahead Time']
 event_header = ['start_ms', 'duration_ms', 'text']

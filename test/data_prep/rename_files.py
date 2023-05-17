@@ -1,7 +1,7 @@
 import os
 import string
 
-path = '../data/' # replace with the path to your directory
+path = '../test_raw_data/'
 valid_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
 
 for filename in os.listdir(path):

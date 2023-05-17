@@ -2,9 +2,9 @@ import os
 import re
 
 
-read_dir = '../annotated_w_names/'
-diar_dir = '../speech_diarization/'
-out_file_n = '../annotated_w_names/_dataset.txt'
+read_dir = 'annotated_w_names/'
+diar_dir = 'speech_diarization/'
+out_file_n = '_test_dataset.txt'
 out_file = open(out_file_n, 'w', encoding='utf-8')
 
 diar_file_ns = os.listdir(diar_dir)
