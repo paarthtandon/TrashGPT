@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-dir_path = '../raw_data/'
+dir_path = '../data/'
 
 for file_name in os.listdir(dir_path):
     if file_name.endswith('.m4a'):
