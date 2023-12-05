@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 from tqdm import tqdm
+import random
 
 load_dotenv()
 
@@ -101,7 +102,9 @@ for rttm_fn in tqdm(rttm_files):
 
     assignments = {}
     available_speakers = ['SPEAKER_00', 'SPEAKER_01', 'SPEAKER_02']
-    for name in ['connor', 'garnt', 'joey']:
+    available_names = ['connor', 'garnt', 'joey']
+    random.shuffle(available_names)
+    for name in available_names:
         sims_per_speaker = {}
         for speaker, sims in speaker_sims.items():
             sims_per_speaker[speaker] = sims[name]
