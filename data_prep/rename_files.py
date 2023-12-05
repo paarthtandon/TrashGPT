@@ -1,8 +1,8 @@
 import os
 import string
 
-path = '../data/'
-valid_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
+path = '../data/raw/'
+valid_chars = "-_.()|# %s%s" % (string.ascii_letters, string.digits)
 
 for filename in os.listdir(path):
     if any((c not in valid_chars) for c in filename):
