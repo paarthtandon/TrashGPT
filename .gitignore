@@ -135,6 +135,7 @@ test_raw_data/
 models/
 snips_*/
 snips/
+checkpoints/
 
 .vscode/
 ffmpeg-6

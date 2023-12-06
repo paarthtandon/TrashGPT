@@ -94,7 +94,6 @@ python-dotenv==1.0.0
 pytorch-lightning==2.1.2
 pytorch-metric-learning==2.3.0
 pytz==2023.3.post1
-pywin32==306
 PyYAML==6.0.1
 pyzmq==25.1.1
 regex==2023.10.3
@@ -120,12 +119,6 @@ tabulate==0.9.0
 tensorboardX==2.6.2.2
 threadpoolctl==3.2.0
 tokenizers==0.15.0
-torch==2.1.1+cu121
-torch-audiomentations==0.11.0
-torch-pitch-shift==1.2.4
-torchaudio==2.1.1+cu121
-torchmetrics==1.2.1
-torchvision==0.16.1+cu121
 tornado==6.4
 tqdm==4.66.1
 traitlets==5.14.0
